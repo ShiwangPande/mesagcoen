@@ -23,6 +23,7 @@ body {
   /* background-image: url(https://www.groupehmp.fr/medias/imports/background_pattern.png); */
   background-repeat: repeat;
   background-color: #eeeeee;
+  overflow-x: hidden;
 }
 .Home {
   text-align: center;

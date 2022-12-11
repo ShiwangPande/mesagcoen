@@ -69,13 +69,13 @@ function NavBar() {
                                                 {
                                                     currentUser ? <Dropdown>
                                                         <Dropdown.Toggle variant="none" id="dropdown-basic" >
-                                                            <img className="rounded-circle shadow-4" src={localStorage.getItem('profilePic')} style={{ width: "50px" }} alt="Avatar" />
+                                                            <img className="rounded-circle shadow-4" src={localStorage.getItem('profilePic') || currentUser.profilePic} style={{ width: "50px" }} alt="Avatar" />
                                                         </Dropdown.Toggle>
 
                                                         <Dropdown.Menu style={{ position: "absolute", left: "-74px" }}>
                                                             <Dropdown.Item ><strong>{
-                                                                localStorage.getItem('name')}</strong></Dropdown.Item>
-                                                            <Dropdown.Item ><strong>Email: </strong>{localStorage.getItem('email')}</Dropdown.Item>
+                                                                localStorage.getItem('name') || currentUser.name}</strong></Dropdown.Item>
+                                                            <Dropdown.Item ><strong>Email: </strong>{localStorage.getItem('email') || currentUser.email}</Dropdown.Item>
                                                             <Dropdown.Item onClick={signOutwithGoogle}>Sign Out</Dropdown.Item>
                                                             {/* <Dropdown.Item onClick={handleLogout}>Sign Out</Dropdown.Item> */}
 
