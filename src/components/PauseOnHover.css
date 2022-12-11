@@ -1,0 +1,22 @@
+.slick-arrow {
+  background-color: black;
+}
+.slick-arrow:hover {
+  background-color: black;
+}
+.slick-next {
+  background-color: black;
+}
+/* @media (max-width: 947px) {
+  .slider-wrapper .slider li {
+    min-height: 722px;
+  }
+} */
+/*     var settings = {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            pauseOnHover: true,
+            dots: true,
+            infinite: true, */

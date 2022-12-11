@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.drishti_background {
+}
+.container_drishti {
+  width: 100vw;
+  height: 500%;
+  /* display: flex; */
+
+  /* flex-wrap: nowrap; */
+  /* -webkit-scrollbar: none; */
+}
+.Drishti {
+  background-image: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.panel.align-top {
+  align-items: flex-start;
+}
+.panel h1 {
+  font-size: 1.8em;
+  color: #eeeeee;
+  font-weight: 300;
+  margin: 0 auto;
+}
+.panel.description {
+  /* padding-bottom: 60px; */
+  /* width: 600%; */
+}
+.panel p,
+.panel li {
+  color: #eeeeee;
+  font-weight: 400;
+  text-align: left;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin: 0.3em 0 1em 0;
+}
+.panel .panel p strong,
+.panel li strong {
+  color: #eeeeee;
+  font-weight: 400;
+}
+.panel p code,
+.panel li code {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+.panel li {
+  margin: 0;
+}
+.drishti_bg1 {
+  background-image: url("https://picsum.photos/1920/1680/?random");
+  /* The background image used */
+  /* background-image: url("https://technosmarter.com/html/images/website-parallax-effect.jpg"); */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Createt  parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.drishti_bg2 {
+  position: absolute;
+  /* background-image: url("../images/drishtibackground2.png"); */
+  background-image: linear-gradient(
+    45deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(0deg 0% 43%) 54%,
+    hsl(0deg 0% 53%) 69%,
+    hsl(0deg 0% 56%) 77%,
+    hsl(0deg 0% 66%) 84%,
+    hsl(0deg 0% 100%) 100%
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+.drishti_bg3 {
+  position: absolute;
+  /* background-image: url("../images/drishtibackground3.png"); */
+  background-image: linear-gradient(
+    45deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(0deg 0% 43%) 54%,
+    hsl(0deg 0% 53%) 69%,
+    hsl(0deg 0% 56%) 77%,
+    hsl(0deg 0% 66%) 84%,
+    hsl(0deg 0% 100%) 100%
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+.drishti_bg4 {
+  position: absolute;
+  /* background-image: url("../images/drishtibackground4.png"); */
+  background-image: linear-gradient(
+    45deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(0deg 0% 43%) 54%,
+    hsl(0deg 0% 53%) 69%,
+    hsl(0deg 0% 56%) 77%,
+    hsl(0deg 0% 66%) 84%,
+    hsl(0deg 0% 100%) 100%
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+.drishti_bg5 {
+  position: absolute;
+  /* background-image: url("../images/drishtibackground5.png"); */
+  background-image: linear-gradient(
+    45deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(0deg 0% 43%) 54%,
+    hsl(0deg 0% 53%) 69%,
+    hsl(0deg 0% 56%) 77%,
+    hsl(0deg 0% 66%) 84%,
+    hsl(0deg 0% 100%) 100%
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+.drishti_img {
+  width: 724px;
+  position: relative;
+  left: 33%;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Signika Negative", sans-serif, Arial;
+}
+
+.panel {
+  width: 100vw;
+  /* height: 100%; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+  color: #eeeeee;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+h1,
+h2,
+p,
+li {
+  /* max-width: 800px; */
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 6px 10px 10px 10px;
+  border-bottom-right-radius: 26px;
+  z-index: 100;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+/* HEADINGS */
+.header-section {
+  padding: 0 15px;
+  text-align: center;
+  margin: 40vh auto 50vh;
+}
+
+/* SCROLL DOWN */
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(100%, 0);
+  color: #eeeeee;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  overflow: visible;
+}
+.scroll-down .arrow {
+  position: relative;
+  top: -4px;
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/8335/8335984.png");
+  background-size: contain;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .Drishti {
+    overflow: hidden;
+  }
+  .panel {
+    width: 100vw;
+    height: 105vh;
+  }
+  .container_drishti {
+    width: 100vw;
+    height: 700px;
+  }
+}
