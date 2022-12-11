@@ -13,6 +13,9 @@ import { Link, useHistory, Redirect } from 'react-router-dom'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { GoogleLogin } from '@react-oauth/google';
+import { googleLogout } from '@react-oauth/google';
+import { useGoogleLogin } from '@react-oauth/google';
 
 
 
@@ -21,6 +24,16 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 function NavBar() {
 
     const { currentUser } = useAuth();
+    function handleLogout() {
+
+        googleLogout();
+
+    }
+    const login = useGoogleLogin({
+        onSuccess: tokenResponse => console.log(tokenResponse),
+    });
+
+
 
     return (
         <>
@@ -75,9 +88,16 @@ function NavBar() {
                                                                 localStorage.getItem('name')}</strong></Dropdown.Item>
                                                             <Dropdown.Item ><strong>Email: </strong>{localStorage.getItem('email')}</Dropdown.Item>
                                                             <Dropdown.Item onClick={signOutwithGoogle}>Sign Out</Dropdown.Item>
+                                                            {/* <Dropdown.Item onClick={handleLogout}>Sign Out</Dropdown.Item> */}
+
                                                         </Dropdown.Menu>
                                                     </Dropdown> :
+                                                //     < onClick={() => login()}>
+                                                //     Sign in with Google 🚀{' '}
+                                                //   </>
+                                                        // <MyCustomButton variant="outline-light" type='submit' style={{}} onClick={signInWithGoogle} >login</MyCustomButton>
                                                         <Button variant="outline-light" type='submit' style={{}} onClick={signInWithGoogle} >login</Button>
+                                                        // <GoogleLogin onSuccess={credentialResponse => { console.log(credentialResponse); }} onError={() => { console.log('Login Failed'); }} useOneTap />
                                                 }
 
                                             </div>

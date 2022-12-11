@@ -27,7 +27,9 @@ import Drishti2022 from './Drishti2022';
 import { ParallaxProvider } from 'react-scroll-parallax';
 // import Thankyou from './Thankyou';
 import Drishti1 from './Drishti1';
+import { GoogleOAuthProvider } from '@react-oauth/google';
 // import Drishtii from './drishti/pages/pages/Drishtii'
+
 
 // 500 100
 
@@ -51,50 +53,51 @@ function App() {
 
     return (
         <Router>
-
-            <AuthProvider>
-                <Switch>
-                    <PrivateRoute exact path="/profile-logout">
-                        <Route component={Dashboard} />
-                    </PrivateRoute>
-                    {/* <PrivateRoute exact path="/content">
+            {/* <GoogleOAuthProvider clientId="<your_client_id>"> */}
+                <AuthProvider>
+                    <Switch>
+                        <PrivateRoute exact path="/profile-logout">
+                            <Route component={Dashboard} />
+                        </PrivateRoute>
+                        {/* <PrivateRoute exact path="/content">
                         <Route component={Content} />
                     </PrivateRoute> */}
-                    <PrivateRoute exact path="/update-profile">
-                        <Route component={UpdateProfile} />
-                    </PrivateRoute>
-                    <ParallaxProvider>
-                        <Route exact path="/" component={Home} />
+                        <PrivateRoute exact path="/update-profile">
+                            <Route component={UpdateProfile} />
+                        </PrivateRoute>
+                        <ParallaxProvider>
+                            <Route exact path="/" component={Home} />
 
-                        <Route path="/signup" component={Signup} />
-                        <Route path="/login" component={Login} />
-                        <Route path="/forgot-password" component={ForgotPassword} />
+                            <Route path="/signup" component={Signup} />
+                            <Route path="/login" component={Login} />
+                            <Route path="/forgot-password" component={ForgotPassword} />
 
-                        <Route path="/student-corner" component={StudentCorner} />
-
-
-                        <Route path="/mesa-activities" component={MesaActivities} />
-
-                        <Route path="/gallery" component={Gallery} />
-
-                        <Route path="/team" component={Team} />
-
-                        <Route path="/contact" component={Contact} />
-
-                        <Route path="/alumini" component={Alumini} />
-
-                        <Route path="/drishti" component={Drishti} />
-                        {/* <Route path="/drishtii" component={Drishtii} /> */}
-                        <Route path="/drishti1" component={Drishti1} />
-
-                        <Route path="/drishti2022" component={Drishti2022} />
-                        {/* <Route path="/thankyou" component={Thankyou} /> */}
+                            <Route path="/student-corner" component={StudentCorner} />
 
 
+                            <Route path="/mesa-activities" component={MesaActivities} />
 
-                    </ParallaxProvider>
-                </Switch>
-            </AuthProvider>
+                            <Route path="/gallery" component={Gallery} />
+
+                            <Route path="/team" component={Team} />
+
+                            <Route path="/contact" component={Contact} />
+
+                            <Route path="/alumini" component={Alumini} />
+
+                            <Route path="/drishti" component={Drishti} />
+                            {/* <Route path="/drishtii" component={Drishtii} /> */}
+                            <Route path="/drishti1" component={Drishti1} />
+
+                            <Route path="/drishti2022" component={Drishti2022} />
+                            {/* <Route path="/thankyou" component={Thankyou} /> */}
+
+
+
+                        </ParallaxProvider>
+                    </Switch>
+                </AuthProvider>
+            {/* </GoogleOAuthProvider>; */}
         </Router>
     )
 }
