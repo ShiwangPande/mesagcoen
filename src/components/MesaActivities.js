@@ -1,16 +1,9 @@
 import React, { Component } from "react";
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import logo from '../images/mesa logo WHITE PNG.png'
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Row from 'react-bootstrap/Row';
 import Footer from './Footer';
-import CardGroup from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
 import SlideShowGallery from './SlideShowGallery';
-import { Link } from 'react-router-dom'
 import Slider from "react-slick";
 import NavBar from './Navbar';
 
