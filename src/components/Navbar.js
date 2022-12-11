@@ -9,13 +9,10 @@ import { MDBContainer } from "mdb-react-ui-kit";
 import { useAuth } from '../context/AuthContext'
 import { GoogleButton } from 'react-google-button';
 import { signInWithGoogle, signOutwithGoogle } from '../context/AuthContext';
-import { Link, useHistory, Redirect } from 'react-router-dom'
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import Dropdown from 'react-bootstrap/Dropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { GoogleLogin } from '@react-oauth/google';
-import { googleLogout } from '@react-oauth/google';
-import { useGoogleLogin } from '@react-oauth/google';
+
 
 
 
@@ -24,14 +21,6 @@ import { useGoogleLogin } from '@react-oauth/google';
 function NavBar() {
 
     const { currentUser } = useAuth();
-    function handleLogout() {
-
-        googleLogout();
-
-    }
-    const login = useGoogleLogin({
-        onSuccess: tokenResponse => console.log(tokenResponse),
-    });
 
 
 
@@ -92,12 +81,7 @@ function NavBar() {
 
                                                         </Dropdown.Menu>
                                                     </Dropdown> :
-                                                //     < onClick={() => login()}>
-                                                //     Sign in with Google 🚀{' '}
-                                                //   </>
-                                                        // <MyCustomButton variant="outline-light" type='submit' style={{}} onClick={signInWithGoogle} >login</MyCustomButton>
                                                         <Button variant="outline-light" type='submit' style={{}} onClick={signInWithGoogle} >login</Button>
-                                                        // <GoogleLogin onSuccess={credentialResponse => { console.log(credentialResponse); }} onError={() => { console.log('Login Failed'); }} useOneTap />
                                                 }
 
                                             </div>
