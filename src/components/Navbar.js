@@ -48,9 +48,9 @@ function NavBar() {
                                         <Nav className="me-auto navbar-dark" style={{ gap: "20px", margin: "auto", alignItems: "center" }} >
                                             <Nav.Link className='nav-item' href="/" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Home</Nav.Link>
                                             <Nav.Link className='nav-item' href="/team" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Committee</Nav.Link>
-                                            {
+                                            {/* {
                                                 currentUser ? <Nav.Link className='nav-item' href="/content" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}> Student Corner</Nav.Link> :
-                                                    <div onClick={() => { signInWithGoogle(); <Redirect to="/content" /> }} className='nav-item' style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px", cursor: "pointer" }}> Student Corner</div>}
+                                                    <div onClick={() => { signInWithGoogle(); <Redirect to="/content" /> }} className='nav-item' style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px", cursor: "pointer" }}> Student Corner</div>} */}
 
                                             <Nav.Link className='nav-item' href="/mesa-activities" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Mesa-Activities</Nav.Link>
                                             {/* <Nav.Link className='nav-item' href="/drishti" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Drishti</Nav.Link> */}

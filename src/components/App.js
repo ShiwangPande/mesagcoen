@@ -12,7 +12,7 @@ import PrivateRoute from "./PrivateRoute";
 import ForgotPassword from "./ForgotPassword";
 import UpdateProfile from "./UpdateProfile";
 import Home from './Home';
-import Content from './Content';
+// import Content from './Content';
 import StudentCorner from './StudentCorner'
 import MesaActivities from './MesaActivities';
 import Gallery from './Gallery'
@@ -27,7 +27,7 @@ import Drishti2022 from './Drishti2022';
 import { ParallaxProvider } from 'react-scroll-parallax';
 // import Thankyou from './Thankyou';
 import Drishti1 from './Drishti1';
-import Drishtii from './drishti/pages/pages/Drishtii'
+// import Drishtii from './drishti/pages/pages/Drishtii'
 
 // 500 100
 
@@ -57,9 +57,9 @@ function App() {
                     <PrivateRoute exact path="/profile-logout">
                         <Route component={Dashboard} />
                     </PrivateRoute>
-                    <PrivateRoute exact path="/content">
+                    {/* <PrivateRoute exact path="/content">
                         <Route component={Content} />
-                    </PrivateRoute>
+                    </PrivateRoute> */}
                     <PrivateRoute exact path="/update-profile">
                         <Route component={UpdateProfile} />
                     </PrivateRoute>
@@ -84,7 +84,7 @@ function App() {
                         <Route path="/alumini" component={Alumini} />
 
                         <Route path="/drishti" component={Drishti} />
-                        <Route path="/drishtii" component={Drishtii} />
+                        {/* <Route path="/drishtii" component={Drishtii} /> */}
                         <Route path="/drishti1" component={Drishti1} />
 
                         <Route path="/drishti2022" component={Drishti2022} />
