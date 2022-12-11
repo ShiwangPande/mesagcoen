@@ -17,7 +17,7 @@ import MRAnkit_Jamaiwar from "../images/MRAnkit_Jamaiwar.png";
 // import Dikshant_Nandanwar from "../images/Mr. Dikshant Nandanwar.png";
 // import Atharva_Pande from "../images/Mr.Atharva Pande.png";
 
-import "./PauseOnHover.css";
+// import "./PauseOnHover.css";
 // import president from "../images/ashutosh.jpg";
 
 export default class Achievement extends Component {
