@@ -22,15 +22,11 @@ function CardMessage() {
                     <Card.Title><h3>HOD's message</h3></Card.Title>
                     <Card.Text style={{ textAlign: "none" }}>
                         To be the center of excellence in the field of Mechanical Engineering education and research. We ensure to provide quality and valuable education to students in the field by providing state-of-art facilities for research and consultancy and to Pursue higher education and contribute in research & development with their full of energetic moves towards Core.
-
                     </Card.Text>
                 </Card.Body>
-
                 <ListGroup className="list-group-flush" style={{ width: "100%", borderRadius: "0px 0 32px 32px", fontWeight: "600" }}>
-
                     <ListGroup.Item>Email: hod.mech@gcoen.ac.in</ListGroup.Item>
                     <ListGroup.Item>Contact: +918237021103</ListGroup.Item>
-
                 </ListGroup>
             </Card>
 
@@ -58,9 +54,7 @@ function CardMessage() {
                     <Card.Text style={{ textAlign: "none" }}>
 
                         Being the president of mesa i aim towards providing healthy environment in our department among all four year student  and also to provide technical knowledge that i have gained by exposing myself to various domains. We as mesa have actively proved to be the best branch in previous years and i wish to continue
-                        The legacy.
-                        {' '}
-                        {' '}
+                        The legacy.{' '}
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush" style={{ width: "100%", borderRadius: "0px 0 32px 32px", fontWeight: "600" }}>

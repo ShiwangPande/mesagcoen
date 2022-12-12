@@ -111,7 +111,7 @@ function Team() {
                                     <h5 className="font-weight-bold mt-4 mb-3">Om Ambarte</h5>
                                     <p className="text-uppercase blue-text"><strong>Advisor</strong></p>
 
-                                    <a href='https://www.instagram.com/ashutosh_acharya___/' target='_blank' className="btn-floating btn-sm mx-2 mb-2 btn-fb" style={{ fontSize: "30px", color: "#eeeeee" }} >
+                                    <a href='https://www.instagram.com/om_ambarte' target='_blank' className="btn-floating btn-sm mx-2 mb-2 btn-fb" style={{ fontSize: "30px", color: "#eeeeee" }} >
                                         <BsInstagram />
                                     </a>
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
