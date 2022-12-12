@@ -48,14 +48,11 @@ function NavBar() {
                                         <Nav.Link className='nav-item' href="/mesa-activities" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Mesa-Activities</Nav.Link>
                                         {/* <Nav.Link className='nav-item' href="/drishti" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Drishti</Nav.Link> */}
                                         <Nav.Link className='nav-item' href="/mou" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>MOU</Nav.Link>
-
                                         <Nav.Link className='nav-item' href="/gallery" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Gallery</Nav.Link>
                                         <Nav.Link className='nav-item' href="/contact" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Contact</Nav.Link>
-
                                     </Nav>
                                     <Nav>
                                         <div className='user_icon' eventKey={2} href="/login" style={{ color: "#EEEEEE", fontWeight: "bolder", fontSize: "15px", display: "flex", justifyContent: "center" }}>
-
                                             {
                                                 currentUser ? <Dropdown>
                                                     <Dropdown.Toggle variant="none" id="dropdown-basic" >
@@ -68,7 +65,6 @@ function NavBar() {
                                                         <Dropdown.Item ><strong>Email: </strong>{localStorage.getItem('email') || currentUser.email}</Dropdown.Item>
                                                         <Dropdown.Item onClick={signOutwithGoogle}>Sign Out</Dropdown.Item>
                                                         {/* <Dropdown.Item onClick={handleLogout}>Sign Out</Dropdown.Item> */}
-
                                                     </Dropdown.Menu>
                                                 </Dropdown> :
                                                     <Button variant="outline-light" type='submit' style={{}} onClick={signInWithGoogle} >login</Button>

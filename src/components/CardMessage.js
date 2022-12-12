@@ -33,7 +33,7 @@ function CardMessage() {
             <Card className='card d-flex align-self-center ' style={{ borderRadius: "20px", backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
                 <Card.Img className="bd-placeholder-img   w-50 h-100 " variant="top" src={Monika} style={{ borderRadius: "32px", border: '1.3mm ridge #eeeeee', marginTop: "20px" }} />
                 <Card.Body>
-                    <Card.Title><h3>Coordinator's message</h3></Card.Title>
+                    <Card.Title><h4>Coordinator's message</h4></Card.Title>
                     <Card.Text style={{ textAlign: "none" }}>
                         It was truly said that ‘’Education is a shared commitment between dedicated professors, motivated students and enthusiastic parents with high expectations’’. We strive to allow every student to encourage themselves and find their path to success through a carefully planned curriculum. Each student has his unique quality and we provide a mentor for every student, it is our responsibility to nurture and develop every learner.{' '}
                     </Card.Text>
