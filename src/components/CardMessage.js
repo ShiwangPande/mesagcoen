@@ -1,7 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Monika from "../images/monika ma'am_.png";
-import HOD from "../images/athawle sir.png";
+// import HOD from "../images/athawle sir.png";
+import HOD from "../images/hod.jpg.png";
 import President from "../images/president.png";
 import './CardMessage.css'
 import ListGroup from 'react-bootstrap/ListGroup';
@@ -35,7 +36,7 @@ function CardMessage() {
                 <Card.Body>
                     <Card.Title><h4>Coordinator's message</h4></Card.Title>
                     <Card.Text style={{ textAlign: "none" }}>
-                        It was truly said that ‘’Education is a shared commitment between dedicated professors, motivated students and enthusiastic parents with high expectations’’. We strive to allow every student to encourage themselves and find their path to success through a carefully planned curriculum. Each student has his unique quality and we provide a mentor for every student, it is our responsibility to nurture and develop every learner.{' '}
+                        It was truly said that ‘’Education is a shared commitment between dedicated professors, motivated students and enthusiastic parents with high expectations’’. We strive to allow every student to encourage themselves and find their path to success through a carefully planned curriculum. Each student has his unique quality and we provide a mentor for every student.{' '}
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush" style={{ width: "100%", borderRadius: "0px 0 32px 32px", fontWeight: "600" }}>

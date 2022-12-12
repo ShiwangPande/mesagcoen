@@ -9,6 +9,7 @@ import MesaActivities from './MesaActivities.js';
 import Gallery from './Gallery'
 import Team from './Team'
 import Contact from './Contact'
+import Collaberation from './Collaberation'
 
 // import Drishtii from './drishti/pages/pages/Drishtii'
 
@@ -48,6 +49,7 @@ function App() {
                     <Route path="/team" component={Team} />
 
                     <Route path="/contact" component={Contact} />
+                    <Route path="/collaberation" component={Collaberation} />
 
                 </Switch>
             </AuthProvider>
