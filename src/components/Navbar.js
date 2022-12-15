@@ -47,7 +47,7 @@ function NavBar() {
 
                                         <Nav.Link className='nav-item' href="/mesa-activities" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Mesa-Activities</Nav.Link>
                                         {/* <Nav.Link className='nav-item' href="/drishti" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Drishti</Nav.Link> */}
-                                        <Nav.Link className='nav-item' href="/collaberation" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Collaberations</Nav.Link>
+                                        <Nav.Link className='nav-item' href="/collaberation" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Collaborations</Nav.Link>
                                         <Nav.Link className='nav-item' href="/gallery" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Gallery</Nav.Link>
                                         <Nav.Link className='nav-item' href="/contact" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "15px" }}>Contact</Nav.Link>
                                     </Nav>

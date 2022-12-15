@@ -6,17 +6,19 @@ import Footer from './Footer.js';
 import Container from 'react-bootstrap/Container';
 import Table from 'react-bootstrap/Table';
 import pdf from '../images/pdf.png'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Collaberation() {
     return (
         <div>
             <Navbar />
             <Container>
-                <h1 className="h1-responsive font-weight-bold my-5 d-flex align-items-center justify-content-center" ><strong style={{ textAlign: "center" }}>Collaberation</strong></h1>
+                <h1 className="h1-responsive font-weight-bold my-5 d-flex align-items-center justify-content-center" ><strong style={{ textAlign: "center" }}>Collaboration</strong></h1>
 
-                <p className='my-3'>Collaberation is the key to success. We are proud to have collaborated with the following organisations:</p>
+                <p className='my-3'>Collaboration is the key to success. We are proud to have collaborated with the following organisations:</p>
                 {/* <div className="mou"> */}
-                <Table bordered hover variant="light">
+                <Table bordered hover variant="light" size='sm'>
                     <thead>
                         <tr>
                             <th>Sr. No.</th>
@@ -46,7 +48,42 @@ function Collaberation() {
                         </tr>
                     </tbody>
                 </Table>
+                <br className='my-5' />
                 {/* </div> */}
+                <Container>
+                    <div className="colab">
+
+                        <Row className='my-5 border border-3 border-dark'>
+                            <Col sm={4} className='d-flex justify-content-center'>
+                                <img src={Mou} className="mou my-3" alt="" /></Col>
+                            <Col sm={8} className=' mou_line'>
+                                <h5 className='m-3 p-4'>  Mechanical Engineering Department
+                                    signed MOUs with Minar Hydro. </h5>
+                                <p className='p-5'>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptates est commodi mollitia eligendi qui iusto, quasi perspiciatis modi, soluta, ut unde quam accusantium expedita architecto sint doloribus odit aliquam voluptatem provident laborum. Veniam amet vero unde quod iure est minima exercitationem sapiente nisi. Est excepturi sunt quia consequatur vel.
+                                </p>
+
+                            </Col>
+                        </Row>
+                        <hr />
+                        <Row className='my-5 border border-3 border-dark'>
+                            <Col sm={4} className='d-flex justify-content-center'>
+                                <img src={Mou2} className="mou my-3" alt="" />
+                            </Col>
+                            <Col sm={8} className=' mou_line'>
+                                <h5 className='m-3 p-4'>  Mechanical Engineering Department signed
+                                    MOUs with CADD centre Services
+                                    Private Limited,Nagpur.</h5>
+                                <p className='p-5'>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi cumque minima fugiat velit sint ipsa? Hic, obcaecati velit dicta tempora quae in. Earum itaque doloribus sunt. Adipisci sequi aliquid nisi necessitatibus fugit ipsum illum optio facilis voluptates eligendi. Perferendis eligendi aliquid perspiciatis quo adipisci labore non. Voluptas quidem amet aliquam asperiores esse iusto aperiam nam? Ullam corrupti fuga mollitia eum dolorem ut aut nesciunt ea aperiam! Nostrum ad totam ullam voluptate dolorem, omnis odit qui ducimus dignissimos atque doloribus?
+                                </p>
+
+                            </Col>
+                        </Row>
+
+
+                    </div>
+                </Container>
             </Container>
             <Footer />
         </div>
