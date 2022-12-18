@@ -822,6 +822,14 @@ h2 {
     padding: 5px;
     width: 293px;
   }
+  body .loader {
+    height: 100%;
+    margin: auto;
+    width: 400px;
+    /* width: 100vw; */
+    cursor: progress;
+    background-color: rgb(34 40 49);
+  }
   .mou_line {
     /* border-start border-dark */
     border-left: none;
