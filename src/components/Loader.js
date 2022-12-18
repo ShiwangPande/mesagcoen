@@ -4,7 +4,7 @@ import MESA from './MESA.svg'
 
 function Loader() {
     return (
-        <div className='Loader-page' >
+        <div className='Loader-page' style={{ backgroundColor: "#818485" }}>
             <body>
                 <div class='loader'>
                     <div class="loader_overlay"></div>

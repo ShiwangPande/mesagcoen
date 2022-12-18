@@ -117,7 +117,7 @@ function Home() {
                     <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
                         <h3>Continue As:</h3>
                         <hr />
-                        <button onClick={()=>{signInWithGoogle();setTimedPopup(false)}} style={{ borderRadius: "none", pointer: "cursor" }}><GoogleButton /></button>
+                        <button onClick={() => { signInWithGoogle(); setTimedPopup(false) }} style={{ borderRadius: "none", pointer: "cursor" }}><GoogleButton /></button>
                     </Popup>
                     <Footer />
                 </div>

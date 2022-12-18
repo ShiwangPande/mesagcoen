@@ -18,8 +18,10 @@ p {
 body .loader {
   height: 100%;
   margin: auto;
-  width: 400px;
+  /* width: 400px; */
+  width: 100vw;
   cursor: progress;
+  background-color: rgb(34 40 49);
 }
 a {
   cursor: pointer;
@@ -61,14 +63,14 @@ body .COGfirst div.firstPart {
   border-radius: 15px;
   position: absolute;
   height: 100px;
-  background: #ff4242;
+  background: #eeeeee;
   /* background: #9a9ea0; */
 }
 body .COGfirst div.firstHole {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: white;
+  background: rgb(34 40 49);
   position: absolute;
   position: absolute;
   left: 0;
@@ -106,14 +108,14 @@ body .COGsecond div.secondPart {
   border-radius: 10px;
   position: absolute;
   height: 80px;
-  background: #208bfd;
+  background: #eeeeee;
   /* background: #4f5051; */
 }
 body .COGsecond div.secondHole {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  background: white;
+  background: rgb(34 40 49);
   position: absolute;
   position: absolute;
   left: 0;
@@ -152,13 +154,13 @@ body .COGthird div.thirdPart {
   border-radius: 8px;
   position: absolute;
   height: 60px;
-  background: #818485;
+  background: #eeeeee;
 }
 body .COGthird div.thirdHole {
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  background: white;
+  background: rgb(34 40 49);
   position: absolute;
   position: absolute;
   left: 0;
