@@ -9,7 +9,7 @@ body {
   height: 100vh;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  /* overflow: hidden; */
+  
 }
 p {
   margin: 0 auto;
@@ -22,6 +22,7 @@ body .loader {
   width: 100vw;
   cursor: progress;
   background-color: rgb(34 40 49);
+  /* overflow-x: hidden; */
 }
 a {
   cursor: pointer;
@@ -152,6 +153,8 @@ body .COGthird div:nth-of-type(3) {
 body .COGthird div.thirdPart {
   width: 60px;
   border-radius: 8px;
+  /* box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f0f, 0 0 40px #0ff,
+    0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073; */
   position: absolute;
   height: 60px;
   background: #eeeeee;

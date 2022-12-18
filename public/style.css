@@ -12,6 +12,7 @@
     url("https://downloads.totallyfreecursors.com/thumbnails/gear.gif"), auto;
   /* cursor: url("https://downloads.totallyfreecursors.com/cursor_files/wrench.ani"),
     url("https://downloads.totallyfreecursors.com/thumbnails/wrench.gif"), auto; */
+    
 }
 
 body {
@@ -29,6 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 h1,

@@ -56,7 +56,7 @@ function Home() {
                 // data-testid="loader"
                 // speedMultiplier={1.5}
                 /> :
-                <div>
+                <div style={{ overflowX: "hidden" }}>
                     <Navbar />
                     <SlideShow />
                     <ThemeProvider
