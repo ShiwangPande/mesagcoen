@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Committe_pic from '../images/comitteepicter567.jpg';
 import committePic from "../images/committeePic.jpg"
-import trpohy from "../images/trophy.jpg"
 
 function SlideShow() {
     const [index, setIndex] = useState(0);
@@ -28,7 +27,7 @@ function SlideShow() {
                 <img
                     className="slide_show d-block "
 
-                    src={trpohy}
+                    src="https://www.linkpicture.com/q/trophy.jpg"
                     alt="Second slide"
                 />
 
