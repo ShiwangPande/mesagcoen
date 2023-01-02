@@ -1,9 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Monika from "../images/monika ma'am_.png";
-// import HOD from "../images/athawle sir.png";
 import HOD from "../images/hod.jpg.png";
-import President from "../images/president.png";
 import './CardMessage.css'
 import ListGroup from 'react-bootstrap/ListGroup';
 import React, { useState } from "react";
