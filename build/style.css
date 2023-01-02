@@ -12,7 +12,7 @@
     url("https://downloads.totallyfreecursors.com/thumbnails/gear.gif"), auto;
   /* cursor: url("https://downloads.totallyfreecursors.com/cursor_files/wrench.ani"),
     url("https://downloads.totallyfreecursors.com/thumbnails/wrench.gif"), auto; */
-  /* overflow-x: hidden; */
+    
 }
 
 body {
@@ -23,12 +23,14 @@ body {
   /* background-image: url(https://www.groupehmp.fr/medias/imports/background_pattern.png); */
   background-repeat: repeat;
   background-color: #eeeeee;
+  overflow-x: hidden;
 }
 .Home {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 h1,
@@ -780,7 +782,60 @@ h2 {
 .cutoff-text:has(+ .expand-btn:checked) {
   max-height: none;
 }
+.mou {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+.mou1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mou__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.mou {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mou:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  scale: 1.1;
+}
+.mou_line {
+  /* border-start border-dark */
+  border-left: 3px solid black;
+}
 @media (max-width: 480px) {
+  .mou {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 293px;
+  }
+  body .loader {
+    height: 100%;
+    margin: auto;
+    width: 400px;
+    /* width: 100vw; */
+    cursor: progress;
+    background-color: rgb(34 40 49);
+  }
+  .mou_line {
+    /* border-start border-dark */
+    border-left: none;
+  }
   .cutoff-text {
     --max-lines: 15;
   }
