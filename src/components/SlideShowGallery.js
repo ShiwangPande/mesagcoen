@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import thermalPowerPlant from '../images/thermalPowerplant.png';
 import industrialVisit from '../images/industrialVisite.png';
-// import Spice from '../images/Spice.png'
 
 
 function SlideShow() {

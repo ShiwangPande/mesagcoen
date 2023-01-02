@@ -4,14 +4,7 @@ import Card from 'react-bootstrap/Card';
 import "slick-carousel/slick/slick.css";
 
 import "slick-carousel/slick/slick-theme.css";
-import Sahil_Kothekar from "../images/Mr.Sahil Jivan Kothekar.png";
-import Devashish_Sontakke from "../images/Mr.Devashish Sontakke.png";
-// atharav mhaske
-import Swanand_Jugade from "../images/Mr. Swanand Jugade.png";
-import Best_department_award from "../images/Best department award.png";
-import Ayush_Deshmukh from "../images/Ayush Deshmukh .png";
-import Dhiraj_Nichant from "../images/Dhiraj Nichant .png";
-import MRAnkit_Jamaiwar from "../images/MRAnkit_Jamaiwar.png";
+
 // import Aayush_Deshmukh from "../images/Mr.Aayush Ulhas Deshmukh.png";
 // import Akshita_Baghel from "../images/Ms. Akshita Baghel.png";
 // import Dikshant_Nandanwar from "../images/Mr. Dikshant Nandanwar.png";
@@ -100,7 +93,7 @@ export default class Achievement extends Component {
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src={Best_department_award} style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src="https://www.linkpicture.com/q/Best-department-award.png" style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Best Department Award</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>
@@ -112,7 +105,7 @@ export default class Achievement extends Component {
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src={Dhiraj_Nichant} style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src="https://www.linkpicture.com/q/Dhiraj-Nichant.png" style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Mr.Dhiraj Nichant</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>
@@ -134,7 +127,7 @@ export default class Achievement extends Component {
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src={MRAnkit_Jamaiwar} style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src="https://www.linkpicture.com/q/MRAnkit_Jamaiwar.png" style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Mr.Ankit Jamaiwar</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>

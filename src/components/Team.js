@@ -1,40 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import { BsInstagram } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-// import Nav from 'react-bootstrap/Nav';
 import Navbar from './Navbar.js';
-import VicePresident from '../images/bhavika didi2.png'
 import Scretary1 from '../images/renu di.png'
-import Secretary2 from '../images/shlok bhai.png'
-import Treasurer1 from '../images/kaushik bhaiya.png'
-// import Treasurer2 from '../images/shlok bhai.png'
-import LR1 from '../images/vishakha.png'
-import LR2 from '../images/senhal.png'
-import LR3 from '../images/sanjivini di.png'
-import SportsCoordinator from '../images/pooja didi.png'
-import SportsCoordinator2 from '../images/vedant.png'
-// import TechHead1 from '../images/shiwang.png'
-import TechHead2 from '../images/parth.png'
-import TechHead3 from '../images/dovesh.png'
-import Footer from './Footer';
-// import TeamWork from '../images/teamwork.png'
-// import TeamWork2 from '../images/teamwork2.png'
-// import Button from 'react-bootstrap/Button';
-// import logo from '../images/mesa-logo.png'
-// import gears from '../images/gears.png'
-import Loader from "./Loader";
-// import Team1 from './Team1';
-// import { useParallax } from 'react-scroll-parallax';
-// import RotationAxis from './Parallax.js';
-// import { Parallax } from 'react-scroll-parallax';
-// import akash_bhaiya from '../images/akash paraskar.png';
 import President from '../images/ashutosh bhaiya.png';
-import shiwang from "../images/shiwangPande.png"
-import advisor from "../images/om ambarte.png"
-import ketaki from "../images/ketaki234.png"
-import akash from "../images/akash paraskar.png"
+import Footer from './Footer';
+import Loader from "./Loader";
 
 
 
@@ -106,7 +78,7 @@ function Team() {
                             <div className="profile_section">
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={advisor} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/om-ambarte.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Om Ambarte</h5>
                                     <p className="text-uppercase blue-text"><strong>Advisor</strong></p>
@@ -145,7 +117,7 @@ function Team() {
 
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={VicePresident} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/bhavika-didi2.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Bhavika Khode</h5>
                                     <p className="text-uppercase blue-text"><strong>Vice-President</strong></p>
@@ -186,7 +158,7 @@ function Team() {
 
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={Secretary2} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/shlok-bhai.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Shlok Tajne</h5>
                                     <p className="text-uppercase blue-text"><strong> Joint-Secretary</strong></p>
@@ -209,7 +181,7 @@ function Team() {
                                 {/* <div className="profile_section"> */}
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={Treasurer1} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/kaushik-bhaiya.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Kaushik Maske</h5>
                                     <p className="text-uppercase blue-text"><strong>Treasurer</strong></p>
@@ -246,7 +218,7 @@ function Team() {
                             <div className="profile_section">
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={akash} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/akash-paraskar.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Akash Paraskar</h5>
                                     <p className="text-uppercase blue-text"><strong>Tech Lead</strong></p>
@@ -263,7 +235,7 @@ function Team() {
                                 </div>
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={shiwang} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/shiwangPande.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Shiwang Pandey</h5>
                                     <p className="text-uppercase blue-text"><strong>Tech Head</strong></p>
@@ -288,7 +260,7 @@ function Team() {
 
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={ketaki} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/ketaki234.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Ketaki Mahalle</h5>
                                     <p className="text-uppercase blue-text"><strong>Social Media Head</strong></p>
@@ -305,7 +277,7 @@ function Team() {
                                 </div>
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={TechHead3} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/dovesh.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Dovesh Aglawe</h5>
                                     <p className="text-uppercase blue-text"><strong>Tech Head</strong></p>
@@ -323,7 +295,7 @@ function Team() {
 
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={TechHead2} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/parth_1.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Parth Tirmare</h5>
                                     <p className="text-uppercase blue-text"><strong>Tech Head</strong></p>
@@ -346,7 +318,7 @@ function Team() {
                             <div className="profile_section">
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={LR3} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/sanjivini-di.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Sanjiwani Choudhary</h5>
                                     <p className="text-uppercase blue-text"><strong>Ladies Representative</strong></p>
@@ -363,7 +335,7 @@ function Team() {
                                 </div>
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={LR1} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/vishakha.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Vishakha Bondre</h5>
                                     <p className="text-uppercase blue-text"><strong>Ladies Representative</strong></p>
@@ -381,7 +353,7 @@ function Team() {
 
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={LR2} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/senhal.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Snehal Joshi</h5>
                                     <p className="text-uppercase blue-text"><strong>Ladies Representative</strong></p>
@@ -405,7 +377,7 @@ function Team() {
                             <div className="profile_section">
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={SportsCoordinator} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/pooja-didi.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Pooja shahu</h5>
                                     <p className="text-uppercase blue-text"><strong>Sports Coordinator</strong></p>
@@ -422,7 +394,7 @@ function Team() {
                                 </div>
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={SportsCoordinator2} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://www.linkpicture.com/q/vedant.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Vedant Nimgade</h5>
                                     <p className="text-uppercase blue-text"><strong>Sports Coordinator</strong></p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import logo from '../images/mesa logo WHITE PNG.png'
-import FooterPic from '../images/footer.jpg'
+// import FooterPic from '../images/footer.jpg'
 import { MDBIcon } from 'mdb-react-ui-kit';
 export default function Footer() {
     return (

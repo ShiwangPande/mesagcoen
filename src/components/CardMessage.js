@@ -49,7 +49,7 @@ function CardMessage() {
 
 
             <Card className='card d-flex align-self-center ' style={{ borderRadius: "20px", backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
-                <Card.Img className="bd-placeholder-img  w-50 h-100 " variant="top" src={President} style={{ borderRadius: "32px", border: '1.3mm ridge #eeeeee', marginTop: "20px" }} />
+                <Card.Img className="bd-placeholder-img  w-50 h-100 " variant="top" src="https://www.linkpicture.com/q/president.png" style={{ borderRadius: "32px", border: '1.3mm ridge #eeeeee', marginTop: "20px" }} />
                 <Card.Body>
                     <Card.Title><h3>President's message</h3></Card.Title>
                     <Card.Text style={{ textAlign: "none" }}>

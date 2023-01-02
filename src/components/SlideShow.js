@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Committe_pic from '../images/comitteepicter567.jpg';
 import committePic from "../images/committeePic.jpg"
-import committePic234 from "../images/committe picture234.jpg"
 import trpohy from "../images/trophy.jpg"
 
 function SlideShow() {
