@@ -1,7 +1,5 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import Monika from "../images/monika ma'am_.png";
-import HOD from "../images/hod.jpg.png";
 import './CardMessage.css'
 import ListGroup from 'react-bootstrap/ListGroup';
 import React, { useState } from "react";
@@ -16,7 +14,7 @@ function CardMessage() {
 
             <Card className='card d-flex align-self-center  ' style={{ borderRadius: "20px", backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
 
-                <Card.Img className="bd-placeholder-img   w-50 h-100 " variant="top" src={HOD} style={{ borderRadius: "32px", border: '1.3mm ridge #eeeeee', marginTop: "20px" }} />
+                <Card.Img className="bd-placeholder-img   w-50 h-100 " variant="top" src="https://i.postimg.cc/xTQ9pL0J/hod-jpg.png" style={{ borderRadius: "32px", border: '1.3mm ridge #eeeeee', marginTop: "20px" }} />
                 <Card.Body>
                     <Card.Title><h3>HOD's message</h3></Card.Title>
                     <Card.Text style={{ textAlign: "none" }}>
@@ -30,7 +28,7 @@ function CardMessage() {
             </Card>
 
             <Card className='card d-flex align-self-center ' style={{ borderRadius: "20px", backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
-                <Card.Img className="bd-placeholder-img   w-50 h-100 " variant="top" src={Monika} style={{ borderRadius: "32px", border: '1.3mm ridge #eeeeee', marginTop: "20px" }} />
+                <Card.Img className="bd-placeholder-img   w-50 h-100 " variant="top" src="https://i.postimg.cc/c1wscFNG/monika-ma-am.png" style={{ borderRadius: "32px", border: '1.3mm ridge #eeeeee', marginTop: "20px" }} />
                 <Card.Body>
                     <Card.Title><h4>Coordinator's message</h4></Card.Title>
                     <Card.Text style={{ textAlign: "none" }}>

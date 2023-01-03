@@ -1,7 +1,5 @@
 import React from 'react'
 import Navbar from './Navbar.js';
-import Mou from '../images/MOU.png'
-import Mou2 from '../images/MOU 2.png'
 import Footer from './Footer.js';
 import Container from 'react-bootstrap/Container';
 import Table from 'react-bootstrap/Table';
@@ -55,7 +53,7 @@ function Collaberation() {
 
                         <Row className='my-5 border border-3 border-dark'>
                             <Col sm={4} className='d-flex justify-content-center'>
-                                <img src={Mou} className="mou my-3" alt="" /></Col>
+                                <img src="https://i.postimg.cc/C19YC6NX/MOU.png" className="mou my-3" alt="" /></Col>
                             <Col sm={8} className=' mou_line'>
                                 <h5 className='m-3 p-4'>  Mechanical Engineering Department
                                     signed MOUs with Minar Hydro. </h5>
@@ -68,7 +66,7 @@ function Collaberation() {
                         <hr />
                         <Row className='my-5 border border-3 border-dark'>
                             <Col sm={4} className='d-flex justify-content-center'>
-                                <img src={Mou2} className="mou my-3" alt="" />
+                                <img src="https://i.postimg.cc/W3dTkPM0/MOU-2.png" className="mou my-3" alt="" />
                             </Col>
                             <Col sm={8} className=' mou_line'>
                                 <h5 className='m-3 p-4'>  Mechanical Engineering Department signed

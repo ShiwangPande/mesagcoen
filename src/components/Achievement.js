@@ -2,16 +2,8 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import Card from 'react-bootstrap/Card';
 import "slick-carousel/slick/slick.css";
-
 import "slick-carousel/slick/slick-theme.css";
-
-// import Aayush_Deshmukh from "../images/Mr.Aayush Ulhas Deshmukh.png";
-// import Akshita_Baghel from "../images/Ms. Akshita Baghel.png";
-// import Dikshant_Nandanwar from "../images/Mr. Dikshant Nandanwar.png";
-// import Atharva_Pande from "../images/Mr.Atharva Pande.png";
-
 import "./PauseOnHover.css";
-// import president from "../images/ashutosh.jpg";
 
 export default class Achievement extends Component {
     render() {

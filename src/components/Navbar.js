@@ -4,7 +4,6 @@ import React, { useRef, useState } from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../images/mesa logo WHITE PNG.png'
 import { MDBContainer } from "mdb-react-ui-kit";
 import { useAuth } from '../context/AuthContext'
 import { GoogleButton } from 'react-google-button';
@@ -22,7 +21,7 @@ function NavBar() {
                 <Navbar collapseOnSelect expand="lg" bg="" variant="dark" style={{ background: "#222831" }}>
                     <Container>
                         <Navbar.Brand href="/" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "19px" }}>
-                            <img className='logo' src={logo} alt="" />
+                            <img className='logo' src="https://i.postimg.cc/2yvY0F96/mesa-logo-1.png" alt="" />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -34,7 +33,7 @@ function NavBar() {
                             >
                                 <Offcanvas.Header closeButton style={{ color: "#EEEEEE" }}>
                                     <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "19px" }}>
-                                        <img className='logo' src={logo} alt="" />
+                                        <img className='logo' src="https://i.postimg.cc/2yvY0F96/mesa-logo-1.png" alt="" />
                                     </Offcanvas.Title>
                                 </Offcanvas.Header>
                                 <Offcanvas.Body>

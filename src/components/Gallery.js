@@ -1,7 +1,5 @@
 import React, { useEffect, useState, useRef, } from 'react';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -16,8 +14,6 @@ import photos1 from "./Photo1";
 import photos2 from "./Photo2";
 import photos3 from "./Photo3";
 import photo5 from "./Photo5";
-// import PhotoBg from '../images/photobg.png';
-import logo from '../images/mesa logo WHITE PNG.png';
 import photo4 from "./Photo4";
 import Loader from "./Loader";
 import NavBar from './Navbar';

@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import thermalPowerPlant from '../images/thermalPowerplant.png';
-import industrialVisit from '../images/industrialVisite.png';
 
 
 function SlideShow() {
@@ -16,7 +14,7 @@ function SlideShow() {
             <Carousel.Item >
                 <img
                     className="slide_show d-block"
-                    src={thermalPowerPlant}
+                    src="https://i.postimg.cc/CLDVjN9n/thermal-Powerplant.png"
                     alt="First slide"
                 />
                 {/* <Carousel.Caption>
@@ -27,7 +25,7 @@ function SlideShow() {
             <Carousel.Item >
                 <img
                     className="slide_show d-block "
-                    src={industrialVisit}
+                    src="https://i.postimg.cc/jS401jxs/industrial-Visite.png"
                     alt="Second slide"
                 />
                 {/* 
@@ -39,7 +37,7 @@ function SlideShow() {
             <Carousel.Item >
                 <img
                     className="slide_show d-block"
-                    src={industrialVisit}
+                    src="https://i.postimg.cc/jS401jxs/industrial-Visite.png"
                     alt="Third slide"
                 />
 

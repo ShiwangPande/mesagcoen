@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Committe_pic from '../images/comitteepicter567.jpg';
-import committePic from "../images/committeePic.jpg"
 
 function SlideShow() {
     const [index, setIndex] = useState(0);
@@ -15,7 +13,7 @@ function SlideShow() {
             <Carousel.Item >
                 <img
                     className="slide_show d-block"
-                    src={committePic}
+                    src="https://i.postimg.cc/jS4FZJMX/committee-Pic.jpg"
                     alt="First slide"
                 />
                 {/* <Carousel.Caption style={{ color: "black" }}>
@@ -45,7 +43,7 @@ function SlideShow() {
                 </Carousel.Caption> */}
                 <img
                     className="slide_show d-block"
-                    src={Committe_pic}
+                    src="https://i.postimg.cc/P5VsHRwc/committe-picture234.jpg"
                     alt="Third slide"
                 />
 

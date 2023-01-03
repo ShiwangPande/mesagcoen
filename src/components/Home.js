@@ -1,9 +1,7 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from './Navbar.js';
 import React, { useEffect, useState, useRef } from 'react';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import SlideShow from './SlideShow'
 import Navtabs from './NavTabs';
 import Row from 'react-bootstrap/Row';
@@ -13,7 +11,6 @@ import { ThemeProvider } from 'react-bootstrap';
 import Footer from './Footer';
 import Achievement from './Achievement.js';
 import Loader from "./Loader";
-import logo from '../images/mesa logo 1.png'
 import Popup from './Popup';
 import { GoogleButton } from 'react-google-button';
 import { signInWithGoogle, signOutwithGoogle } from '../context/AuthContext';
@@ -63,7 +60,7 @@ function Home() {
                         breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
                         minBreakpoint="xxs"
                     >
-                        <img className='main_logo' src={logo} alt="" />
+                        <img className='main_logo' src="https://i.postimg.cc/2yvY0F96/mesa-logo-1.png" alt="" />
                         <h1 className="col-md-9   fw-bolder d-flex align-items-center justify-content-center " style={{ textAlign: "center", margin: "43px auto 100px", padding: "0 95px" }}>Mechanical Engineering <br />Student Association <br />(MESA) </h1>
                         <Container className='card_cont p-0' >
 

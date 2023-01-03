@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Loader.css"
-import MESA from './MESA.svg'
 
 function Loader() {
     return (

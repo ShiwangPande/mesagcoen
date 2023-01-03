@@ -3,8 +3,6 @@ import Container from 'react-bootstrap/Container';
 import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import Navbar from './Navbar.js';
-import Scretary1 from '../images/renu di.png'
-import President from '../images/ashutosh bhaiya.png';
 import Footer from './Footer';
 import Loader from "./Loader";
 
@@ -96,7 +94,7 @@ function Team() {
                                 </div>
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={President} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/wx5LtcM0/ashutosh-bhaiya.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Ashutosh Acharya</h5>
                                     <p className="text-uppercase blue-text"><strong>President</strong></p>
@@ -140,7 +138,7 @@ function Team() {
                             <div className="profile_section">
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src={Scretary1} className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/1zq0zkbj/renu-di.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Renu  Bhendarkar</h5>
                                     <p className="text-uppercase blue-text"><strong>Secretary</strong></p>
