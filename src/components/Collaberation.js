@@ -3,7 +3,6 @@ import Navbar from './Navbar.js';
 import Footer from './Footer.js';
 import Container from 'react-bootstrap/Container';
 import Table from 'react-bootstrap/Table';
-import pdf from '../images/pdf.png'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -35,14 +34,14 @@ function Collaberation() {
                             <td>Shruti Vaibhav Wazalwar
                             </td>
                             <td>3 Years</td>
-                            <td><img src={pdf} alt="" style={{ width: "35px", cursor: "pointer" }} /></td>
+                            <td><img src="https://i.postimg.cc/bvkM6KWf/pdf.png" alt="" style={{ width: "35px", cursor: "pointer" }} /></td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>MINAR-HYDRO (HYDRAULIC MRO SOLUTIONS)</td>
                             <td>Shri. Jitendra Nayak</td>
                             <td>3 Years</td>
-                            <td><img src={pdf} alt="" style={{ width: "35px", cursor: "pointer" }} /></td>
+                            <td><img src="https://i.postimg.cc/bvkM6KWf/pdf.png" alt="" style={{ width: "35px", cursor: "pointer" }} /></td>
                         </tr>
                     </tbody>
                 </Table>
