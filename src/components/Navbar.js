@@ -21,7 +21,7 @@ function NavBar() {
                 <Navbar collapseOnSelect expand="lg" bg="" variant="dark" style={{ background: "#222831" }}>
                     <Container>
                         <Navbar.Brand href="/" style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "19px" }}>
-                            <img className='logo' src="https://i.postimg.cc/2yvY0F96/mesa-logo-1.png" alt="" />
+                            <img className='logo' src="https://i.postimg.cc/Pf8dfTfj/mesa-logo-WHITE-PNG.png" alt="" />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -33,7 +33,7 @@ function NavBar() {
                             >
                                 <Offcanvas.Header closeButton style={{ color: "#EEEEEE" }}>
                                     <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} style={{ color: "#EEEEEE", fontWeight: "bold", fontSize: "19px" }}>
-                                        <img className='logo' src="https://i.postimg.cc/2yvY0F96/mesa-logo-1.png" alt="" />
+                                        <img className='logo' src="https://i.postimg.cc/Pf8dfTfj/mesa-logo-WHITE-PNG.png" alt="" />
                                     </Offcanvas.Title>
                                 </Offcanvas.Header>
                                 <Offcanvas.Body>

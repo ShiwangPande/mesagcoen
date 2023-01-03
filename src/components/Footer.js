@@ -46,7 +46,7 @@ export default function Footer() {
                         <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4 '>
                             <div className='text-uppercase fw-bold ' style={{ display: "flex", justifyContent: "center" }}>
                                 {/* <MDBIcon icon="gem" className="me-3" /> */}
-                                <img className='footer-logo' src="https://i.postimg.cc/2yvY0F96/mesa-logo-1.png" alt="" />
+                                <img className='footer-logo' src="https://i.postimg.cc/Pf8dfTfj/mesa-logo-WHITE-PNG.png" alt="" />
                             </div>
                             <p className='text-uppercase fw-bold footer-logo-tagline' style={{ textAlign: 'center' }}>
                                 Gearing up for a better future
