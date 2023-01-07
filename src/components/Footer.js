@@ -86,7 +86,7 @@ export default function Footer() {
                                 </a>
                             </p>
                             <p>
-                                <a href='#about_the_mesa' className='text-reset'>
+                                <a href='https://www.linkedin.com/company/gcoen-mechanical-engineering-students-association-mesa/' className='text-reset'>
                                     Linkdien
                                 </a>
                             </p>
