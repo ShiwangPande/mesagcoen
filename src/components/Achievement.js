@@ -139,6 +139,21 @@ export default class Achievement extends Component {
                             </Card.Body>
                         </Card>
                     </div>
+                    <div className="d-flex align-items-center justify-content-center">
+                        <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                            <Card.Img variant="top" src='https://i.postimg.cc/vTNSjQVS/snheal.jpg' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Body style={{ height: "210px" }}>
+                                <Card.Title style={{ fontSize: "18px" }}>Ms Snheal joshi</Card.Title>
+                                <Card.Text style={{ fontSize: "15px" }}>
+                                    Ms Snehal Sunil Joshi
+                                    Triathlete
+                                    Represented India at Asian Triathlon Championship Nepal ,
+                                    Asian Triathlon Cup,  Malaysia
+                                    Won Silver medal at Asain Duathlon open.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
                 </Slider>
             </div>
 
