@@ -47,7 +47,7 @@ export default function Navtabs() {
                             <tr >
                                 <marquee behavior="smooth" direction="left" >
                                     <td style={{ cursor: "pointer" }}>
-                                        <a href="https://nagpuruniversity.ac.in/writereaddata/fckimagefile/Revised%20Academic%20Calendar%20of%202022-23.pdf" style={{ color: "blue", marginLeft: "10px" }}> <u>Revised Academic Calendar for 2022-23</u></a>
+                                        <a href="https://forms.gle/wZC6EMxNfwbyvq2u8" style={{ color: "blue", marginLeft: "10px" }}> <u>Sfoorti Mechanical merch.</u></a>
                                     </td>
                                 </marquee>
                                 {/* </tr>
@@ -55,16 +55,10 @@ export default function Navtabs() {
                                 <marquee behavior="smooth" direction="left" >
                                     <td style={{ cursor: "pointer" }}>
                                         {/* <br /> */}
-                                        <a href="https://nagpuruniversity.ac.in/writereaddata/fckimagefile/Revised%20Academic%20Calendar%20of%202022-23.pdf" style={{ color: "blue", marginLeft: "20px" }}><u>Revised Academic Calendar for 2022-23</u></a>
+                                        <a href="https://drive.google.com/file/d/1DrKFxk3-taiU75O0lURGvbZFf-F4JENc/view?usp=share_links" style={{ color: "blue", marginLeft: "20px" }}><u>Register to Acedemics Bank of Credit.</u></a>
                                     </td></marquee>
                                 {/* </tr>
                                 <tr > */}
-                                <marquee behavior="smooth" direction="left" >
-                                    <td style={{ cursor: "pointer" }}>
-                                        {/* <br /> */}
-                                        <a href="https://nagpuruniversity.ac.in/writereaddata/fckimagefile/Revised%20Academic%20Calendar%20of%202022-23.pdf" style={{ color: "blue", marginLeft: "20px" }}><u>Revised Academic Calendar for 2022-23</u></a>
-                                    </td>
-                                </marquee>
                             </tr>
                         </tbody>
                     </Table>
