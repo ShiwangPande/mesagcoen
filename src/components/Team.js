@@ -87,7 +87,7 @@ function Team() {
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='https://www.instagram.com/bhvk_khd/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://www.linkedin.com/in/om-ambarte-3b185421a/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
 
@@ -105,7 +105,7 @@ function Team() {
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='https://www.instagram.com/bhvk_khd/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://www.linkedin.com/in/ashutosh-acharya-ab13431b1/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
 
@@ -126,7 +126,7 @@ function Team() {
                                     <a href='https://www.instagram.com/bhvk_khd/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='https://www.instagram.com/bhvk_khd/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
                                 </div>
@@ -149,7 +149,7 @@ function Team() {
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://www.linkedin.com/in/renu-bhendarkar-a956bb237/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
                                 </div>
@@ -167,7 +167,7 @@ function Team() {
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://www.linkedin.com/in/shlok-tajne-45b3531b9/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
                                 </div>
@@ -184,7 +184,7 @@ function Team() {
                                     <h5 className="font-weight-bold mt-4 mb-3">Kaushik Maske</h5>
                                     <p className="text-uppercase blue-text"><strong>Treasurer</strong></p>
 
-                                    <a href='https://www.instagram.com/bhvk_khd/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-fb" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://instagram.com/_.kaushik._45?igshid=YmMyMTA2M2Y=' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-fb" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsInstagram />
                                     </a>
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
@@ -221,13 +221,13 @@ function Team() {
                                     <h5 className="font-weight-bold mt-4 mb-3">Akash Paraskar</h5>
                                     <p className="text-uppercase blue-text"><strong>Tech Lead</strong></p>
 
-                                    <a href='https://www.instagram.com/poojashahu_21/' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-fb" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://instagram.com/akash_paraskar_?igshid=YmMyMTA2M2Y=' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-fb" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsInstagram />
                                     </a>
                                     <a href='' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://www.linkedin.com/in/akash-paraskar-4b99b0234/' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
                                 </div>
@@ -244,7 +244,7 @@ function Team() {
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://www.linkedin.com/in/shiwang-pandey/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
                                 </div>
@@ -263,7 +263,7 @@ function Team() {
                                     <h5 className="font-weight-bold mt-4 mb-3">Ketaki Mahalle</h5>
                                     <p className="text-uppercase blue-text"><strong>Social Media Head</strong></p>
 
-                                    <a href='https://www.instagram.com/ved_nimgade_official._/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-fb" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://instagram.com/ketaki_14?igshid=YmMyMTA2M2Y=' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-fb" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsInstagram />
                                     </a>
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
@@ -286,7 +286,7 @@ function Team() {
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://www.linkedin.com/in/dovesh-aglawe-39210a261/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
                                 </div>
@@ -321,13 +321,13 @@ function Team() {
                                     <h5 className="font-weight-bold mt-4 mb-3">Sanjiwani Choudhary</h5>
                                     <p className="text-uppercase blue-text"><strong>Ladies Representative</strong></p>
 
-                                    <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-fb" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='http://instagram.com/_sam_2605?igshid=ZmRIMzRkMDU=' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-fb" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsInstagram />
                                     </a>
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://www.linkedin.com/in/sanjiwani-c-78564320a/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
                                 </div>
@@ -344,7 +344,7 @@ function Team() {
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://www.linkedin.com/in/vishakha-bondre-b76a18257/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
                                 </div>
@@ -386,7 +386,7 @@ function Team() {
                                     <a href='' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://www.linkedin.com/in/pooja-shahu-06026b220/' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
                                 </div>
@@ -403,7 +403,7 @@ function Team() {
                                     <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
 
                                     </a>
-                                    <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
+                                    <a href='https://www.linkedin.com/in/vedant-nimgade-2a1b6423b/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
                                         <BsLinkedin />
                                     </a>
                                 </div>

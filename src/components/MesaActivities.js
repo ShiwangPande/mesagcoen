@@ -114,7 +114,7 @@ export default class MesaActivities extends Component {
                       plant situated at Koradi.
                     </Card.Text>
                   </Card.Body>
-                  <a href="https://drive.google.com/file/d/1LPY64ilWrxbO5HVSM-FADPLDEkuUwDlO/view?usp=sharing" target={"_blank"}>
+                  <a href="https://drive.google.com/file/d/1DcvAlog8YhoH_QdJPk2y4P6ZQJxEyVna/view?usp=share_link" target={"_blank"}>
                     <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
                     </Button></a>
                 </Card>
@@ -130,6 +130,20 @@ export default class MesaActivities extends Component {
                     </Card.Text>
                   </Card.Body>
                   <a href="https://drive.google.com/file/d/1DUrdOW0_k4P5ManE4llwR1r6JXpx0xnE/view?usp=sharing" target={"_blank"}>
+                    <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
+                    </Button></a>
+                </Card>
+              </div>
+              <div className="d-flex align-items-center justify-content-center">
+                <Card className="activity_card" style={{ backgroundColor: "rgb(57 62 70)" }} >
+                  <Card.Img className="activity_image" variant="top" src="https://www.linkpicture.com/q/IMG-20221225-WA0013.jpg" style={{ height: "196px" }} />
+                  <Card.Body style={{ height: "200px" }}>
+                    <Card.Title style={{ fontSize: "18px" }}>Bureau of Indian Standards.</Card.Title>
+                    <Card.Text style={{ fontSize: "15px" }}>
+                      The Mechanical engineering student association, MESA organized a guest lecture Bureau of Indian Standards.
+                    </Card.Text>
+                  </Card.Body>
+                  <a href="https://drive.google.com/file/d/1DEiFyYEquNb4IQKk-cyBtevI2Pp8oPFV/view?usp=share_link" target={"_blank"}>
                     <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
                     </Button></a>
                 </Card>
