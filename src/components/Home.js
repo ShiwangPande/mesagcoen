@@ -24,7 +24,7 @@ function Home() {
             setLoading(false);
         }, 500)
     }, [])
-    const [buttonPopup, setButtonPopup] = useState(false);
+    // const [buttonPopup, setButtonPopup] = useState(false);
     const [timedPopup, setTimedPopup] = useState(false);
 
     useEffect(() => {

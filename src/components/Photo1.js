@@ -1,17 +1,19 @@
 const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 
+
 const techquizLink = (id: string, width: number, height: number) =>
-    `https://www.linkpicture.com/q/${id}`;
+    `https://i.postimg.cc/${id}.webp`;
 const techquizPhotos = [
-    { id: "main_4.jpg", width: 1080, height: 780 },
-    { id: "1_921.jpg", width: 1080, height: 780 },
-    { id: "2_467.jpg", width: 1080, height: 780 },
-    { id: "3_1345.jpg", width: 1080, height: 780 },
-    { id: "4_271.jpg", width: 1080, height: 780 },
-    { id: "5_920.jpg", width: 1080, height: 780 },
-    { id: "6_771.jpg", width: 1080, height: 780 },
-    { id: "7_663.jpg", width: 1080, height: 780 },
-    { id: "8_453.jpg", width: 1080, height: 780 },
+    { id: "NMCv9Hqy/mesa-224", width: 1080, height: 780 },
+    { id: "PxQNBKwg/mesa-200", width: 1080, height: 780 },
+    { id: "fb4Ly1j4/mesa-202", width: 1080, height: 780 },
+    { id: "7hXGTXP3/mesa-190", width: 1080, height: 780 },
+    { id: "L504pW6b/mesa-204", width: 1080, height: 780 },
+    // { id: "59P2LXqS/mesa-205", width: 1080, height: 780 },
+    { id: "Gp1LdGdd/mesa-206", width: 1080, height: 780 },
+   
+    { id: "28Mj9gtq/mesa-208", width: 1080, height: 780 },
+    { id: "Wzptjrmh/mesa-197", width: 1080, height: 780 },
 ];
 
 const photos = techquizPhotos.map((photo) => {

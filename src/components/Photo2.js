@@ -1,28 +1,31 @@
 const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 
+// 174 172 173 165 164 163 162 151 27 28 36 37 49 35 34 33 31 30 26 170  
+
 const industrialVisit = (id: string, width: number, height: number) =>
-    `https://www.linkpicture.com/q/${id}`;
+    `https://i.postimg.cc/${id}.webp`;
 const industrialPhoto = [
-    { id: "46_7.jpg", width: 1080, height: 780 },
-    { id: "45_18.jpg", width: 1080, height: 780 },
-    { id: "44_25.jpg", width: 1080, height: 780 },
-    { id: "43_35.jpg", width: 1080, height: 780 },
-    { id: "37_38.jpg", width: 1080, height: 780 },
-    { id: "31_48.jpg", width: 1080, height: 780 },
-    { id: "30_25.jpg", width: 1080, height: 780 },
-    { id: "29_73.jpg", width: 1080, height: 780 },
-    { id: "28_101.jpg", width: 1080, height: 780 },
-    { id: "27_102.jpg", width: 1080, height: 780 },
-    { id: "26_64.jpg", width: 1080, height: 780 },
-    { id: "25_37.jpg", width: 1080, height: 780 },
-    { id: "24_83.jpg", width: 1080, height: 780 },
-    { id: "23_82.jpg", width: 1080, height: 780 },
-    { id: "22_108.jpg", width: 1080, height: 780 },
-    { id: "21_112.jpg", width: 1080, height: 780 },
-    { id: "2_1590.jpg", width: 1080, height: 780 },
-    { id: "1_941.jpg", width: 1080, height: 780 },
-    { id: "3_1351.jpg", width: 1080, height: 780 },
-    { id: "4_1104.jpg", width: 1080, height: 780 },
+    { id: "pTzKyDnC/mesa-174", width: 1080, height: 780 },
+    { id: "rFcN0Yjr/mesa-172", width: 1080, height: 780 },
+    // { id: "ZKcFrFsD/mesa-173", width: 1080, height: 780 },
+    // { id: "KzMDL6Cn/mesa-165", width: 1080, height: 780 },
+    // { id: "cLFhNMQ8/mesa-164", width: 1080, height: 780 },
+    // { id: "zf3jDbj2/mesa-163", width: 1080, height: 780 },
+    // { id: "Qd8mPnW3/mesa-162", width: 1080, height: 780 },
+    { id: "zXn24gtn/mesa-151", width: 1080, height: 780 },
+    // { id: "0j4Drcyz/mesa-27", width: 1080, height: 780 },
+    // { id: "g0yV4VN7/mesa-28", width: 1080, height: 780 },
+    { id: "RFsnbXfg/mesa-36", width: 1080, height: 780 },
+    { id: "25jQcqM8/mesa-50", width: 1080, height: 780 },
+    { id: "2ygLCy0v/mesa-37", width: 1080, height: 780 },
+    { id: "FH4gSCxS/mesa-49", width: 1080, height: 780 },
+    { id: "wjLLT58B/mesa-35", width: 1080, height: 780 },
+    { id: "Jn4kq9yy/mesa-34", width: 1080, height: 780 },
+    { id: "yNTR0VN4/mesa-33", width: 1080, height: 780 },
+    { id: "dtzGYHfX/mesa-31", width: 1080, height: 780 },
+    { id: "pX9K3bsz/mesa-30", width: 1080, height: 780 },
+    { id: "Hnv4XTBs/mesa-26", width: 1080, height: 780 },
+    // { id: "0jGGXpkj/mesa-170", width: 1080, height: 780 },
 ];
 
 const photos = industrialPhoto.map((photo) => {

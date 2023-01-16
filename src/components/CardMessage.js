@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import './CardMessage.css'
 import ListGroup from 'react-bootstrap/ListGroup';
-import React, { useState } from "react";
+import React from "react";
 
 
 function CardMessage() {
