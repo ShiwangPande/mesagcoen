@@ -13,7 +13,7 @@ function SlideShow() {
             <Carousel.Item >
                 <img
                     className="slide_show d-block"
-                    src="https://i.postimg.cc/jS4FZJMX/committee-Pic.jpg"
+                    src="https://i.postimg.cc/nLJBvW47/committee-Pic-jpg.webp"
                     alt="First slide"
                 />
                 {/* <Carousel.Caption style={{ color: "black" }}>
@@ -25,7 +25,7 @@ function SlideShow() {
                 <img
                     className="slide_show d-block "
 
-                    src="https://www.linkpicture.com/q/trophy.jpg"
+                    src="https://i.postimg.cc/xTmXtRTP/trophy-jpg.webp"
                     alt="Second slide"
                 />
 
@@ -43,7 +43,7 @@ function SlideShow() {
                 </Carousel.Caption> */}
                 <img
                     className="slide_show d-block"
-                    src="https://i.postimg.cc/P5VsHRwc/committe-picture234.jpg"
+                    src="https://i.postimg.cc/zX4nfv3x/committe-picture234-jpg.webp"
                     alt="Third slide"
                 />
 

@@ -51,7 +51,7 @@ export default class Achievement extends Component {
                 <Slider {...settings} variant="dark" className="d-flex align-items-center justify-content-center" >
                     <div className="d-flex align-items-center justify-content-center" >
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src='https://www.linkpicture.com/q/Mr.Sahil-Jivan-Kothekar_3.png' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src='https://i.postimg.cc/yYDmBc6J/Mr-Sahil-Jivan-Kothekar-3-png.webp' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Mr.Sahil Jivan Kothekar</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>
@@ -63,7 +63,7 @@ export default class Achievement extends Component {
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src="https://www.linkpicture.com/q/Mr.Devashish-Sontakke_3.png" style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src="https://i.postimg.cc/vBG7dKDM/Mr-Devashish-Sontakke-3-png.webp" style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Mr.Devashish Sontakke</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>
@@ -74,7 +74,7 @@ export default class Achievement extends Component {
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src='https://www.linkpicture.com/q/Mr.Swanand-Jugade_3.png' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src='https://i.postimg.cc/63HZx5DL/Mr-Swanand-Jugade-3-png.webp' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Mr.Swanand Jugade</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>
@@ -85,7 +85,7 @@ export default class Achievement extends Component {
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src="https://www.linkpicture.com/q/Best-department-award.png" style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src="https://i.postimg.cc/mrfNmksP/Best-department-award-png.webp" style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Best Department Award</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>
@@ -97,7 +97,7 @@ export default class Achievement extends Component {
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src="https://www.linkpicture.com/q/Dhiraj-Nichant.png" style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src="https://i.postimg.cc/2SB7dvPp/Dhiraj-Nichant-png.webp" style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Mr.Dhiraj Nichant</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>
@@ -108,7 +108,7 @@ export default class Achievement extends Component {
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src='https://www.linkpicture.com/q/Mr.Aayush-Ulhas-Deshmukh_3.png' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src='https://i.postimg.cc/s2YPqzjw/Mr-Aayush-Ulhas-Deshmukh-3-png.webp' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Mr.Ayush Ulhas Deshmukh</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>
@@ -119,7 +119,7 @@ export default class Achievement extends Component {
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src="https://www.linkpicture.com/q/MRAnkit_Jamaiwar.png" style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src="https://i.postimg.cc/ZnCdbzmk/MRAnkit-Jamaiwar-png.webp" style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Mr.Ankit Jamaiwar</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>
@@ -130,7 +130,7 @@ export default class Achievement extends Component {
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src='https://www.linkpicture.com/q/Ms.Akshita-Sukesh-Baghel_3.png' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src='https://i.postimg.cc/Zn2y0sYW/Ms-Akshita-Sukesh-Baghel-3-png.webp' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Ms Akshita Sukesh Baghel</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>
@@ -141,7 +141,7 @@ export default class Achievement extends Component {
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                         <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                            <Card.Img variant="top" src='https://i.postimg.cc/vTNSjQVS/snheal.jpg' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
+                            <Card.Img variant="top" src='https://i.postimg.cc/K8XM2WsV/snheal-jpg.webp' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                             <Card.Body style={{ height: "210px" }}>
                                 <Card.Title style={{ fontSize: "18px" }}>Ms Snheal joshi</Card.Title>
                                 <Card.Text style={{ fontSize: "15px" }}>
