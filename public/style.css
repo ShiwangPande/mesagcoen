@@ -991,7 +991,7 @@ h2 {
     width: 200px;
   }
   .footer__height {
-    height: 30vh;
+    height: 28vh;
   }
 }
 /* for tablet use */
@@ -1163,7 +1163,7 @@ h2 {
     top: 300px;
   }
   .footer__height {
-    height: 36vh;
+    height: 28vh;
   }
 }
 @media (min-width: 500px) and (max-width: 680px) {
@@ -1352,7 +1352,7 @@ h2 {
     top: 210px;
   }
   .footer__height {
-    height: 30vh;
+    height: 28vh;
   }
   .slide_show {
     height: 70vh;
