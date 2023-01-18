@@ -10,7 +10,7 @@ export default function Footer() {
                     <span>Get connected with us on social networks:</span>
                 </div>
 
-                <div>
+                {/* <div>
                     <a href='' className='me-4 text-reset'>
                         <MDBIcon fab icon="facebook-f" />
                         <MDBIcon icon='camera' size='xs' />
@@ -37,7 +37,11 @@ export default function Footer() {
                     <a href='' className='me-4 text-reset'>
                         <MDBIcon fab icon="github" />
                     </a>
+<<<<<<< HEAD
                 </div>
+=======
+                </div> */}
+>>>>>>> a71603c920316a8255cd9d805f06443e8133080c
             </section>
 
             <section className=''>

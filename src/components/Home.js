@@ -60,7 +60,7 @@ function Home() {
                         breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
                         minBreakpoint="xxs"
                     >
-                        <img className='main_logo' src="https://i.postimg.cc/2yvY0F96/mesa-logo-1.png" alt="" />
+                        <img className='main_logo' src="https://i.postimg.cc/pXMdBVP6/mesa-logo-1-webp.webp" alt="" />
                         <h1 className="col-md-9   fw-bolder d-flex align-items-center justify-content-center " style={{ textAlign: "center", margin: "43px auto 100px", padding: "0 95px" }}>Mechanical Engineering <br />Student Association <br />(MESA) </h1>
                         <Container className='card_cont p-0' >
 
