@@ -12,7 +12,6 @@
     url("https://downloads.totallyfreecursors.com/thumbnails/gear.gif"), auto;
   /* cursor: url("https://downloads.totallyfreecursors.com/cursor_files/wrench.ani"),
     url("https://downloads.totallyfreecursors.com/thumbnails/wrench.gif"), auto; */
-    
 }
 
 body {
@@ -30,7 +29,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 h1,
@@ -993,7 +991,7 @@ h2 {
     width: 200px;
   }
   .footer__height {
-    height: 36vh;
+    height: 28vh;
   }
 }
 /* for tablet use */
@@ -1165,7 +1163,7 @@ h2 {
     top: 300px;
   }
   .footer__height {
-    height: 57vh;
+    height: 28vh;
   }
 }
 @media (min-width: 500px) and (max-width: 680px) {
@@ -1354,7 +1352,7 @@ h2 {
     top: 210px;
   }
   .footer__height {
-    height: 36vh;
+    height: 28vh;
   }
   .slide_show {
     height: 70vh;
