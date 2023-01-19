@@ -41,7 +41,6 @@ export default function Footer() {
                 </div>
 =======
                 </div> */}
->>>>>>> a71603c920316a8255cd9d805f06443e8133080c
             </section>
 
             <section className=''>
