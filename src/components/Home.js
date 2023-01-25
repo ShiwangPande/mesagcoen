@@ -99,7 +99,7 @@ function Home() {
                                     <input class="expand-btn" type="checkbox" ></input>
                                 </Col>
                             </Row>
-                            <Row className='m-5'>
+                            <Row className='my-5'>
                                 <h1 id='about_the_mesa' className="mt-5 col-md-9  m-auto fw-bolder " style={{ textAlign: "center" }}>Achievements</h1>
                                 <Swiper />
                             </Row>
