@@ -16,13 +16,28 @@ export default function Scrollbar() {
     return (
         <>
             <Swiper
-                slidesPerView={4}
+                slidesPerView={1}
                 spaceBetween={30}
                 centeredSlides={true}
-                // autoplay={{
-                //     delay: 2500,
-                //     disableOnInteraction: false,
-                // }}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
+                    },
+                }}
+
                 pagination={{
                     clickable: true,
                 }}
@@ -31,7 +46,6 @@ export default function Scrollbar() {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img src='https://i.postimg.cc/yYDmBc6J/Mr-Sahil-Jivan-Kothekar-3-png.webp' alt="" />
                     <Card style={{ minHeight: "440px", width: '500px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
                         <Card.Img variant="top" src='https://i.postimg.cc/yYDmBc6J/Mr-Sahil-Jivan-Kothekar-3-png.webp' style={{ height: "300px", borderRadius: "20px 20px 0 0" }} />
                         <Card.Body style={{ height: "210px" }}>
