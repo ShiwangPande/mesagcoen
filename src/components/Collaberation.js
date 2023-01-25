@@ -57,8 +57,13 @@ function Collaberation() {
                                 <h5 className='m-3 p-4'>  Mechanical Engineering Department
                                     signed MOUs with Minar Hydro. </h5>
                                 <p className='p-5'>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptates est commodi mollitia eligendi qui iusto, quasi perspiciatis modi, soluta, ut unde quam accusantium expedita architecto sint doloribus odit aliquam voluptatem provident laborum. Veniam amet vero unde quod iure est minima exercitationem sapiente nisi. Est excepturi sunt quia consequatur vel.
-                                </p>
+                                    The Mechanical Engineering Department at the Government College of Engineering Nagpur recently signed a Memorandum of Understanding (MOU) with Minar Hydro. The MOU was signed by the managing director of Minar Hydro, Shri. Jitendra Nayak, and representatives from the Mechanical Engineering Department.
+
+                                    The purpose of the MOU is to provide opportunities for students of mechanical engineering at the college to gain practical experience and knowledge through internships and other training programs offered by Minar Hydro. This will help to bridge the gap between the theoretical knowledge taught in the classroom and the practical skills needed to succeed in the industry.
+
+                                    The MOU was organized by the Mechanical Engineering Students Association (MESA) at the college, which aims to provide extracurricular opportunities and resources for students in the mechanical engineering program. The association played a key role in facilitating the partnership between the college and Minar Hydro, which will benefit the students in the department.
+
+                                    Overall, the MOU signed between Mechanical Engineering Department at Government College of Engineering Nagpur and Minar Hydro is a positive step towards providing students with practical experience and knowledge which will help them to be better prepared for the workforce.</p>
 
                             </Col>
                         </Row>
@@ -72,8 +77,13 @@ function Collaberation() {
                                     MOUs with CADD centre Services
                                     Private Limited,Nagpur.</h5>
                                 <p className='p-5'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi cumque minima fugiat velit sint ipsa? Hic, obcaecati velit dicta tempora quae in. Earum itaque doloribus sunt. Adipisci sequi aliquid nisi necessitatibus fugit ipsum illum optio facilis voluptates eligendi. Perferendis eligendi aliquid perspiciatis quo adipisci labore non. Voluptas quidem amet aliquam asperiores esse iusto aperiam nam? Ullam corrupti fuga mollitia eum dolorem ut aut nesciunt ea aperiam! Nostrum ad totam ullam voluptate dolorem, omnis odit qui ducimus dignissimos atque doloribus?
-                                </p>
+                                    The Mechanical Engineering Department at the Government College of Engineering Nagpur recently signed a Memorandum of Understanding (MOU) with CADD Centre Services Private Limited, Nagpur. The MOU was signed by the Managing Director of CADD Centre Services, Shruti Vaibhav Wazalwar, and representatives from the Mechanical Engineering Department.
+
+                                    The purpose of the MOU is to provide students of mechanical engineering at the college with training and employment opportunities in the field of computer-aided design and drafting (CADD). The MOU will allow students to gain practical experience and knowledge in the use of CADD software, which is widely used in the mechanical engineering industry.
+
+                                    The MOU was organized by the Mechanical Engineering Students Association (MESA) at the college, which aims to provide extracurricular opportunities and resources for students in the mechanical engineering program. The association played a key role in facilitating the partnership between the college and CADD Centre Services, which will benefit the students in the department.
+
+                                    Overall, the MOU signed between Mechanical Engineering Department at Government College of Engineering Nagpur and CADD Centre Services Private Limited is a positive step towards providing students with practical experience and knowledge in the field of CADD. This will help students to be better prepared for the workforce and take advantage of the many employment opportunities available in this field. </p>
 
                             </Col>
                         </Row>
