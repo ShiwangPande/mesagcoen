@@ -25,11 +25,11 @@ export default function Scrollbar() {
                 }}
                 breakpoints={{
                     640: {
-                        slidesPerView: 1,
+                        slidesPerView: 2,
                         spaceBetween: 50,
                     },
                     768: {
-                        slidesPerView: 1,
+                        slidesPerView: 2,
                         spaceBetween: 50,
                     },
                     1024: {
