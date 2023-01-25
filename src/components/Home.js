@@ -14,6 +14,7 @@ import Loader from "./Loader";
 import Popup from './Popup';
 import { GoogleButton } from 'react-google-button';
 import { signInWithGoogle, signOutwithGoogle } from '../context/AuthContext';
+import Swiper from "./Scrollbar"
 
 function Home() {
     const [loading, setLoading] = useState(false);
@@ -100,10 +101,11 @@ function Home() {
                             </Row>
                             <Row className='mt-5'>
                                 <h1 id='about_the_mesa' className="mt-5 col-md-9  m-auto fw-bolder " style={{ textAlign: "center" }}>Achievements</h1>
-                                <Achievement />
+                                <Swiper />
                             </Row>
                         </Container>
                     </ThemeProvider>
+
                     <br />
                     {/* <button onClick={() => setButtonPopup(true)}> open Popup</button> */}
                     {/* <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
