@@ -2,7 +2,31 @@ import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 // import FooterPic from '../images/footer.jpg'
 import { MDBIcon } from 'mdb-react-ui-kit';
+import Dialog from "@material-ui/core/Dialog";
+import DialogContentText from "@material-ui/core/DialogContentText";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import DialogActions from "@material-ui/core/DialogActions";
+import DialogContent from "@material-ui/core/DialogContent";
+import Button from "@material-ui/core/Button";
 export default function Footer() {
+    const [open, setOpen] = React.useState(false);
+
+    const handleClickToOpen = () => {
+        setOpen(true);
+    };
+
+    const handleToClose = () => {
+        setOpen(false);
+    };
+    const [open1, setOpen1] = React.useState(false);
+
+    const handleClickToOpen1 = () => {
+        setOpen1(true);
+    };
+
+    const handleToClose1 = () => {
+        setOpen1(false);
+    };
     return (
         <MDBFooter className='text-center text-lg-start text-white' style={{ background: "rgb(34, 40, 49)" }}>
             <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
@@ -133,7 +157,77 @@ export default function Footer() {
             <div className='footer__height text-center p-4'>
                 <MDBContainer fluid>
                     <p className='text-white'>
-                        © 2021 All Rights Reserved <br />
+                        <Button variant="none" style={{ color: 'white' }}
+                            onClick={handleClickToOpen}>
+                            © 2021 All Rights Reserved
+                        </Button>
+                        <Dialog open={open} onClose={handleToClose}>
+                            <DialogTitle>{"© 2021 All Rights Reserved"}</DialogTitle>
+                            <DialogContent>
+                                <DialogContentText>
+                                    Copyright © 2023 Mesa All rights reserved.
+
+                                    All content on this website, including text, graphics, logos, images, and software, is the property of Mesa and is protected by copyright and other intellectual property laws. The content on this website may not be reproduced, distributed, modified, or reposted without the express written consent of Mesa.
+
+                                    Mesa and its logos are trademarks or registered trademarks of Mesa in the United States and other countries. Other company and product names may be trademarks of their respective owners.
+
+                                    The unauthorized use of any content on this website may violate copyright, trademark, and other laws. If you believe that any content on this website infringes on your intellectual property rights, please contact us at gcoenmesa@gmail.com.
+
+                                    Mesa respects the intellectual property rights of others and expects its users to do the same. If you believe that your work has been copied in a way that constitutes copyright infringement, please contact us at gcoenmesa@gmail.com.
+                                </DialogContentText>
+                            </DialogContent>
+                            <DialogActions>
+                                <Button onClick={handleToClose}
+                                    color="primary" autoFocus>
+                                    Close
+                                </Button>
+                            </DialogActions>
+                        </Dialog> <br />
+                        <Button variant="none" style={{ color: 'white' }}
+                            onClick={handleClickToOpen1}>
+                            Privacy Policy
+                        </Button>
+                        <Dialog open={open1} onClose={handleToClose1}>
+                            <DialogTitle>{"Privacy Policy"}</DialogTitle>
+                            <DialogContent>
+                                <DialogContentText>
+                                    Privacy Policy for Mesa Website
+
+                                    At Mesa, we are committed to protecting the privacy of our users. This Privacy Policy applies to our website, mesagcoen.org, and governs data collection and usage. By using our website, you consent to the data practices described in this policy.
+
+                                    Collection of Personal Information
+
+                                    We may collect personal information, such as your name, email address, and phone number, when you voluntarily provide it to us through our website. We may also collect information about your use of our website, including pages visited, links clicked, and search queries.
+
+                                    Use of Personal Information
+
+                                    We may use your personal information to contact you with newsletters, marketing or promotional materials, and other information that may be of interest to you. We may also use your personal information to improve the functionality of our website, to personalize your experience, and to comply with legal obligations.
+
+                                    Sharing of Personal Information
+
+                                    We may share your personal information with third-party service providers to assist us in providing our services, such as website hosting, data analysis, and email delivery. We may also share your personal information with law enforcement or other government agencies if required by law.
+
+                                    Security of Personal Information
+
+                                    We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. However, no method of transmission over the Internet, or method of electronic storage, is 100% secure. Therefore, while we strive to protect your personal information, we cannot guarantee its absolute security.
+
+                                    Changes to Privacy Policy
+
+                                    We may update this Privacy Policy from time to time to reflect changes in our practices or applicable laws. We will provide notice of any material changes by updating the date of this policy and posting the updated policy on our website.
+
+                                    Contact Us
+
+                                    If you have any questions about this Privacy Policy, please contact us at mesagcoen@gmail.com.
+
+                                    Effective Date: January 25, 2023</DialogContentText>
+                            </DialogContent>
+                            <DialogActions>
+                                <Button onClick={handleToClose1}
+                                    color="primary" autoFocus>
+                                    Close
+                                </Button>
+                            </DialogActions>
+                        </Dialog> <br />
                         <a target={"_blank"} href="https://www.linkedin.com/in/shiwang-pandey-33a628221/">
                             <b className='text-white'>Designed And Developed by Shiwang Pandey</b>
                         </a>
