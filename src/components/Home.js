@@ -14,7 +14,6 @@ import Loader from "./Loader";
 import Popup from './Popup';
 import { GoogleButton } from 'react-google-button';
 import { signInWithGoogle, signOutwithGoogle } from '../context/AuthContext';
-import Privacy from './Privacy.js';
 
 function Home() {
     const [loading, setLoading] = useState(false);
@@ -105,7 +104,6 @@ function Home() {
                             </Row>
                         </Container>
                     </ThemeProvider>
-                    <Privacy />
                     <br />
                     {/* <button onClick={() => setButtonPopup(true)}> open Popup</button> */}
                     {/* <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
