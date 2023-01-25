@@ -101,7 +101,7 @@ function Home() {
                             </Row>
                             <Row className='mt-5'>
                                 <h1 id='about_the_mesa' className="mt-5 col-md-9  m-auto fw-bolder " style={{ textAlign: "center" }}>Achievements</h1>
-                                <Swiper />
+                                <Achievement />
                             </Row>
                         </Container>
                     </ThemeProvider>
