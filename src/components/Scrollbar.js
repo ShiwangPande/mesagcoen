@@ -135,7 +135,7 @@ export default function Scrollbar() {
                 <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
                     <Card.Img variant="top" src="https://i.postimg.cc/m2CLrq87/hardik-bhaiya-3.jpg" style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
                     <Card.Body style={{ height: "210px" }}>
-                        <Card.Title style={{ fontSize: "18px" }}>Mr.Ankit Jamaiwar</Card.Title>
+                        <Card.Title style={{ fontSize: "18px" }}>Mr. Hardik jagtap</Card.Title>
                         <Card.Text style={{ fontSize: "15px" }}>
                             Mr. Hardik jagtap student of government College of engineering  nagpur studying in  mechanical 3rd year , participated in ashwamedh 2k22,  RTMNagpurUniversity basketball team secured 2nd position.
                         </Card.Text>
