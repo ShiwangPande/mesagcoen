@@ -3,6 +3,7 @@ const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 const robotics = (id: string, width: number, height: number) =>
     `https://www.linkpicture.com/q/${id}`;
 const roboticsPhoto = [
+    { id: "robototics-cover.jpg", width: 1080, height: 780 },
     { id: "robotics1.jpg", width: 1080, height: 780 },
     { id: "robotics2.jpg", width: 1080, height: 780 },
     { id: "robotics10.jpg", width: 1080, height: 780 },

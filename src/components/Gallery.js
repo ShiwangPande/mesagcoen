@@ -18,6 +18,7 @@ import photo4 from "./Photo4";
 import Loader from "./Loader";
 import NavBar from './Navbar';
 import photo6 from "./Photo6";
+import photo7 from "./Photo7";
 
 const slides = photos.map(({ src, width, height, images }) => ({
     src,
@@ -89,6 +90,16 @@ const slides6 = photo6.map(({ src, width, height, images }) => ({
         height: image.height,
     })),
 }));
+const slides7 = photo7.map(({ src, width, height, images }) => ({
+    src,
+    width,
+    height,
+    srcSet: images.map((image) => ({
+        src: image.src,
+        width: image.width,
+        height: image.height,
+    })),
+}));
 
 function Gallery() {
     const [index, setIndex] = useState(-1);
@@ -98,6 +109,7 @@ function Gallery() {
     const [index4, setIndex4] = useState(-1);
     const [index5, setIndex5] = useState(-1);
     const [index6, setIndex6] = useState(-1);
+    const [index7, setIndex7] = useState(-1);
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         setLoading(true);
@@ -234,6 +246,24 @@ function Gallery() {
                         close={() => setIndex6(-1)}
                         plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
                     />
+                    <div className="mt-5" style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
+                        <h2 id='Thermal-PowerPlant' className="py-3 col-md-9  m-auto fw-bolder d-flex align-items-center justify-content-center" >Catia workshop</h2>
+                    </div>
+                    <Container className='p-3'>
+                        <PhotoAlbum
+                            photos={photo7}
+                            layout="rows"
+                            targetRowHeight={150}
+                            onClick={(event, photo, index7) => setIndex7(index7)}
+                        /></Container>
+                    <Lightbox
+                        slides={slides7}
+                        open={index7 >= 0}
+                        index={index7}
+                        close={() => setIndex7(-1)}
+                        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+                    />
+
                     <div className="mt-5" style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
                         <h2 id='Thermal-PowerPlant' className="py-3 col-md-9  m-auto fw-bolder d-flex align-items-center justify-content-center" >Previous Year Events</h2>
                     </div>
