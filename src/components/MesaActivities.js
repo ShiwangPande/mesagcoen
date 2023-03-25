@@ -150,14 +150,15 @@ export default class MesaActivities extends Component {
               </div>
               <div className="d-flex align-items-center justify-content-center">
                 <Card className="activity_card" style={{ backgroundColor: "rgb(57 62 70)" }} >
-                  <Card.Img className="activity_image" variant="top" src="https://www.linkpicture.com/q/IMG-20221225-WA0013.jpg" style={{ height: "196px" }} />
+                  <Card.Img className="activity_image" variant="top" src="https://www.linkpicture.com/q/asdasdasdasdasdc.png" style={{ height: "196px" }} />
                   <Card.Body style={{ height: "200px" }}>
-                    <Card.Title style={{ fontSize: "18px" }}>Bureau of Indian Standards.</Card.Title>
+                    <Card.Title style={{ fontSize: "18px" }}>CATIA Workshop</Card.Title>
                     <Card.Text style={{ fontSize: "15px" }}>
-                      The Mechanical engineering student association, MESA organized a guest lecture Bureau of Indian Standards.
+                      A three day workshop on “CATIA Software” has been organised by the Mechanical
+                      Engineering Student Association from 21st February to 23rd February 2023.
                     </Card.Text>
                   </Card.Body>
-                  <a href="https://drive.google.com/file/d/1DEiFyYEquNb4IQKk-cyBtevI2Pp8oPFV/view?usp=share_link" target={"_blank"}>
+                  <a href="https://drive.google.com/file/d/1PyB-Awkphn2Y23Q8Z1W_eBuyiGbghKK3/view?usp=share_link" target={"_blank"}>
                     <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
                     </Button></a>
                 </Card>
