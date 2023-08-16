@@ -26,7 +26,7 @@
     "react-google-button": "^0.7.2",
     "react-google-charts": "^4.0.0",
     "react-google-login": "^5.2.2",
-
+    "react-icons": "^4.10.1",
     "react-loadable": "^5.5.0",
     "react-pdf": "^5.7.2",
     "react-photo-album": "^1.16.1",

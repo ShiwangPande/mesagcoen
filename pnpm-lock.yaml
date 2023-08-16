@@ -24,7 +24,7 @@ specifiers:
   react-google-button: ^0.7.2
   react-google-charts: ^4.0.0
   react-google-login: ^5.2.2
-  react-icons: ^4.6.0
+  react-icons: ^4.10.1
   react-loadable: ^5.5.0
   react-pdf: ^5.7.2
   react-photo-album: ^1.16.1
@@ -58,20 +58,20 @@ dependencies:
   mdb-react-ui-kit: 4.2.0_yqqa5ithnjtlkxisuaub7c4kpa
   react: 18.2.0
   react-bootstrap: 2.7.0_ib3m5ricvtkl2cll7qpr2f6lvq
-  react-card-slider-component: 1.0.9_ltudtfehdt6ut2pc4xjjmdeusi
+  react-card-slider-component: 1.0.9_ht524wpnjjl35pislxijoa55im
   react-dom: 18.2.0_react@18.2.0
   react-google-button: 0.7.2_react@18.2.0
   react-google-charts: 4.0.0_biqbaboplfbrettd7655fr4n2y
   react-google-login: 5.2.2_biqbaboplfbrettd7655fr4n2y
-  react-icons: 4.7.1_react@18.2.0
+  react-icons: 4.10.1_react@18.2.0
   react-loadable: 5.5.0_react@18.2.0
   react-pdf: 5.7.2_sjkfibpvkg33iagsiij4zgoske
   react-photo-album: 1.16.1_react@18.2.0
   react-router-dom: 5.3.4_react@18.2.0
-  react-scripts: 5.0.1_ojognn47wz4hl2blsdhgy3ww6y
+  react-scripts: 5.0.1_ytrva2nb373jzfcl3ntfbtam6a
   react-scroll-parallax: 3.3.2_biqbaboplfbrettd7655fr4n2y
   react-slick: 0.29.0_biqbaboplfbrettd7655fr4n2y
-  sass: 1.57.1
+  sass: 1.65.1
   slick-carousel: 1.8.1_jquery@3.6.1
   swiper: 8.4.6
   typescript: 4.9.4
@@ -9637,7 +9637,7 @@ packages:
     resolution: {integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==}
     engines: {node: '>= 4.0'}
     os: [darwin]
-    deprecated: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+    deprecated: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -15483,7 +15483,7 @@ packages:
       warning: 4.0.3
     dev: false
 
-  /react-card-slider-component/1.0.9_ltudtfehdt6ut2pc4xjjmdeusi:
+  /react-card-slider-component/1.0.9_ht524wpnjjl35pislxijoa55im:
     resolution: {integrity: sha512-xdQYRv5Jpb+8/Qmt1aUaFEbZKPF5ciVXETReMLV9C9d24/ODCl1XdUQaRQzzNev75EWjaCk4caofCvXbqI1nUA==}
     dependencies:
       '@testing-library/jest-dom': 5.16.5
@@ -15492,8 +15492,8 @@ packages:
       core-js: 3.26.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-icons: 4.7.1_react@17.0.2
-      react-scripts: 4.0.3_3hgncdsxhcz3jnalgxf22uiv6q
+      react-icons: 4.10.1_react@17.0.2
+      react-scripts: 4.0.3_kk2hfzzjjl63gep7qluelf7bjm
       web-vitals: 1.1.2
     transitivePeerDependencies:
       - '@testing-library/dom'
@@ -15663,16 +15663,16 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /react-icons/4.7.1_react@17.0.2:
-    resolution: {integrity: sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==}
+  /react-icons/4.10.1_react@17.0.2:
+    resolution: {integrity: sha512-/ngzDP/77tlCfqthiiGNZeYFACw85fUjZtLbedmJ5DTlNDIwETxhwBzdOJ21zj4iJdvc0J3y7yOsX3PpxAJzrw==}
     peerDependencies:
       react: '*'
     dependencies:
       react: 17.0.2
     dev: false
 
-  /react-icons/4.7.1_react@18.2.0:
-    resolution: {integrity: sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==}
+  /react-icons/4.10.1_react@18.2.0:
+    resolution: {integrity: sha512-/ngzDP/77tlCfqthiiGNZeYFACw85fUjZtLbedmJ5DTlNDIwETxhwBzdOJ21zj4iJdvc0J3y7yOsX3PpxAJzrw==}
     peerDependencies:
       react: '*'
     dependencies:
@@ -15792,7 +15792,7 @@ packages:
       tiny-warning: 1.0.3
     dev: false
 
-  /react-scripts/4.0.3_3hgncdsxhcz3jnalgxf22uiv6q:
+  /react-scripts/4.0.3_kk2hfzzjjl63gep7qluelf7bjm:
     resolution: {integrity: sha512-S5eO4vjUzUisvkIPB7jVsKtuH2HhWcASREYWHAQ1FP5HyCv3xgn+wpILAEWkmy+A+tTNbSZClhxjT3qz6g4L1A==}
     engines: {node: ^10.12.0 || >=12.0.0}
     hasBin: true
@@ -15852,7 +15852,7 @@ packages:
       react-refresh: 0.8.3
       resolve: 1.18.1
       resolve-url-loader: 3.1.5
-      sass-loader: 10.4.1_sass@1.57.1+webpack@4.44.2
+      sass-loader: 10.4.1_sass@1.65.1+webpack@4.44.2
       semver: 7.3.2
       style-loader: 1.3.0_webpack@4.44.2
       terser-webpack-plugin: 4.2.3_webpack@4.44.2
@@ -15887,7 +15887,7 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /react-scripts/5.0.1_ojognn47wz4hl2blsdhgy3ww6y:
+  /react-scripts/5.0.1_ytrva2nb373jzfcl3ntfbtam6a:
     resolution: {integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -15936,7 +15936,7 @@ packages:
       react-refresh: 0.11.0
       resolve: 1.22.1
       resolve-url-loader: 4.0.0
-      sass-loader: 12.6.0_sass@1.57.1+webpack@5.75.0
+      sass-loader: 12.6.0_sass@1.65.1+webpack@5.75.0
       semver: 7.3.8
       source-map-loader: 3.0.2_webpack@5.75.0
       style-loader: 3.3.1_webpack@5.75.0
@@ -16568,7 +16568,7 @@ packages:
     resolution: {integrity: sha512-ZRwKbh/eQ6w9vmTjkuG0Ioi3HBwPFce0O+v//ve+aOq1oeCy7jMV2qzzAlpsNuqpqCBjjriM1lbtZbF/Q8jVyA==}
     dev: false
 
-  /sass-loader/10.4.1_sass@1.57.1+webpack@4.44.2:
+  /sass-loader/10.4.1_sass@1.65.1+webpack@4.44.2:
     resolution: {integrity: sha512-aX/iJZTTpNUNx/OSYzo2KsjIUQHqvWsAhhUijFjAPdZTEhstjZI9zTNvkTTwsx+uNUJqUwOw5gacxQMx4hJxGQ==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -16587,13 +16587,13 @@ packages:
       klona: 2.0.5
       loader-utils: 2.0.4
       neo-async: 2.6.2
-      sass: 1.57.1
+      sass: 1.65.1
       schema-utils: 3.1.1
       semver: 7.3.8
       webpack: 4.44.2
     dev: false
 
-  /sass-loader/12.6.0_sass@1.57.1+webpack@5.75.0:
+  /sass-loader/12.6.0_sass@1.65.1+webpack@5.75.0:
     resolution: {integrity: sha512-oLTaH0YCtX4cfnJZxKSLAyglED0naiYfNG1iXfU5w1LNZ+ukoA5DtyDIN5zmKVZwYNJP4KRc5Y3hkWga+7tYfA==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -16614,13 +16614,13 @@ packages:
     dependencies:
       klona: 2.0.5
       neo-async: 2.6.2
-      sass: 1.57.1
+      sass: 1.65.1
       webpack: 5.75.0
     dev: false
 
-  /sass/1.57.1:
-    resolution: {integrity: sha512-O2+LwLS79op7GI0xZ8fqzF7X2m/m8WFfI02dHOdsK5R2ECeS5F62zrwg/relM1rjSLy7Vd/DiMNIvPrQGsA0jw==}
-    engines: {node: '>=12.0.0'}
+  /sass/1.65.1:
+    resolution: {integrity: sha512-9DINwtHmA41SEd36eVPQ9BJKpn7eKDQmUHmpI0y5Zv2Rcorrh0zS+cFrt050hdNbmmCNKTW3hV5mWfuegNRsEA==}
+    engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
