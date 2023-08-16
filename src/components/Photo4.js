@@ -1,25 +1,23 @@
 const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 
 const previousyear = (id: string, width: number, height: number) =>
-    `https://www.linkpicture.com/q/${id}`;
+    `https://i.postimg.cc/${id}`;
 const industrialPhoto2 = [
-    { id: "Higher-studies-in-Foreign-Mr-Bond-Krishna-Consultant-1.jpg", width: 1080, height: 780 },
-    { id: "GMR-Visit-1.jpg", width: 1080, height: 780 },
-    { id: "GMR-Power-plant-Bhandara-16-Feb-2018-1.jpg", width: 1080, height: 780 },
-    { id: "Expert-lecture-Ali-Jeevaji-JSW-steels-1.jpg", width: 1080, height: 780 },
-    { id: "Exper-Lecture-1.jpg", width: 1080, height: 780 },
-    { id: "EDP-camp-1_1.jpg", width: 1080, height: 780 },
-    { id: "MCED-workshop-8-10-Aug-2018.jpg", width: 1080, height: 780 },
-    { id: "Lecture-on-Industrial-Project-Internship-importance-1.jpg", width: 1080, height: 780 },
-    { id: "Kinetic-Gears-Project-meeting-2.jpg", width: 1080, height: 780 },
-    { id: "Kinetic-Gears-Project-meeting-1-1.jpg", width: 1080, height: 780 },
-    { id: "JSW-Plant-15-sept-2018.jpg", width: 1080, height: 780 },
-    { id: "TCS-expert-talk-1.jpg", width: 1080, height: 780 },
-    { id: "Shaurya-NCC-defence.jpg", width: 1080, height: 780 },
-    { id: "Road-safety-awareness.jpg", width: 1080, height: 780 },
-    { id: "PTM-meet-2018.jpg", width: 1080, height: 780 },
-    { id: "PTM-2018-1.jpg", width: 1080, height: 780 },
-    { id: "Presentation-in-Samantrana-International-paper.jpg", width: 1080, height: 780 },
+    // { id: "sfT0hWGR/mesa-100.webp",  width: 1080, height: 780},
+    { id: "HsKZSCtZ/mesa-101.webp",  width: 1080, height: 780},
+    { id: "g0bMWqQ3/mesa-102.webp",  width: 1080, height: 780},
+    { id: "ZqPwKvz2/mesa-103.webp",  width: 1080, height: 780},
+    { id: "BQt7cv2P/mesa-89.webp",  width: 1080, height: 780},
+    { id: "dVyWpSHq/mesa-90.webp",  width: 1080, height: 780},
+    { id: "tTX21RXT/mesa-91.webp",  width: 1080, height: 780},
+    { id: "0QcZ7gQC/mesa-92.webp",  width: 1080, height: 780},
+    // { id: "L55DTygF/mesa-93.webp",  width: 1080, height: 780},
+    { id: "dQN41Kgs/mesa-94.webp",  width: 1080, height: 780},
+    { id: "yxGPrF0g/mesa-95.webp",  width: 1080, height: 780},
+    { id: "VLS40Vcj/mesa-96.webp",  width: 1080, height: 780},
+    { id: "0QxHpdC9/mesa-97.webp",  width: 1080, height: 780},
+    { id: "qqvbFJYY/mesa-98.webp",  width: 1080, height: 780},
+    { id: "yxpQCqCN/mesa-99.webp",  width: 1080, height: 780},
 ];
 
 const photos = industrialPhoto2.map((photo) => {

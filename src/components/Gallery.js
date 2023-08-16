@@ -19,6 +19,7 @@ import Loader from "./Loader";
 import NavBar from './Navbar';
 import photo6 from "./Photo6";
 import photo7 from "./Photo7";
+import photo8 from "./Photo8";
 
 const slides = photos.map(({ src, width, height, images }) => ({
     src,
@@ -100,6 +101,16 @@ const slides7 = photo7.map(({ src, width, height, images }) => ({
         height: image.height,
     })),
 }));
+const slides8 = photo8.map(({ src, width, height, images }) => ({
+    src,
+    width,
+    height,
+    srcSet: images.map((image) => ({
+        src: image.src,
+        width: image.width,
+        height: image.height,
+    })),
+}));
 
 function Gallery() {
     const [index, setIndex] = useState(-1);
@@ -110,6 +121,7 @@ function Gallery() {
     const [index5, setIndex5] = useState(-1);
     const [index6, setIndex6] = useState(-1);
     const [index7, setIndex7] = useState(-1);
+    const [index8, setIndex8] = useState(-1);
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         setLoading(true);
@@ -145,7 +157,7 @@ function Gallery() {
             <div className="photobg" style={{ top: "201%", height: "61%" }}>
                 <img src={PhotoBg} alt="" />
             </div> */}
-                    <Container className='p-3' >
+                    <Container className='p-3'>
                         <PhotoAlbum
                             photos={photos}
                             layout="rows"
@@ -261,6 +273,23 @@ function Gallery() {
                         open={index7 >= 0}
                         index={index7}
                         close={() => setIndex7(-1)}
+                        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+                    />
+                    <div className="mt-5" style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
+                        <h2 id='Thermal-PowerPlant' className="py-3 col-md-9  m-auto fw-bolder d-flex align-items-center justify-content-center" >Iron & Iron Carbide Lecture</h2>
+                    </div>
+                    <Container className='p-3'>
+                        <PhotoAlbum
+                            photos={photo8}
+                            layout="rows"
+                            targetRowHeight={150}
+                            onClick={(event, photo, index8) => setIndex8(index8)}
+                        /></Container>
+                    <Lightbox
+                        slides={slides8}
+                        open={index8 >= 0}
+                        index={index8}
+                        close={() => setIndex8(-1)}
                         plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
                     />
 

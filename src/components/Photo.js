@@ -1,29 +1,28 @@
 const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 
 const unsplashLink = (id: string, width: number, height: number) =>
-    `https://www.linkpicture.com/q/${id}`;
+    `https://i.postimg.cc/${id}`;
 const unsplashPhotos = [
-    { id: "1-3_46.jpg", width: 1080, height: 780 },
-    { id: "2_466.jpg", width: 1080, height: 780 },
-    { id: "3_1344.jpg", width: 1080, height: 780 },
-    { id: "4_270.jpg", width: 1080, height: 780 },
-    { id: "5_286.jpg", width: 1080, height: 780 },
-    { id: "6_770.jpg", width: 1080, height: 780 },
-    { id: "7_662.jpg", width: 1080, height: 780 },
-    { id: "8_177.jpg", width: 1080, height: 780 },
-    { id: "9_131.jpg", width: 1080, height: 780 },
-    { id: "10_130.jpg", width: 1080, height: 780 },
-    { id: "11_154.jpg", width: 1080, height: 780 },
-    { id: "12_140.jpg", width: 1080, height: 780 },
-    { id: "13_285.jpg", width: 1080, height: 780 },
-    { id: "14_249.jpg", width: 1080, height: 780 },
-    { id: "15_244.jpg", width: 1080, height: 780 },
-    { id: "16_74.jpg", width: 1080, height: 780 },
-    { id: "18_182.jpg", width: 1080, height: 780 },
-    { id: "19_153.jpg", width: 1080, height: 780 },
-    { id: "20_153.jpg", width: 1080, height: 780 },
-    { id: "21_107.jpg", width: 1080, height: 780 },
+    { id: "0NFCYf53/mesa-209.webp", width: 1080, height: 780 },
+    { id: "2j4xWhsc/mesa-210.webp", width: 1080, height: 780 },
+    { id: "QCkkrZgG/mesa-211.webp", width: 1080, height: 780 },
+    { id: "sxR98gh4/mesa-212.webp", width: 1080, height: 780 },
+    { id: "yYsyyWBV/mesa-213.webp", width: 1080, height: 780 },
+    { id: "rwpG7bK3/mesa-214.webp", width: 1080, height: 780 },
+    { id: "SNd7TqNc/mesa-215.webp", width: 1080, height: 780 },
+    { id: "7hvmkNp7/mesa-216.webp", width: 1080, height: 780 },
+    { id: "44tW1r91/mesa-217.webp", width: 1080, height: 780 },
+    { id: "Z5fHRmGJ/mesa-218.webp", width: 1080, height: 780 },
+    { id: "YSh3LV7Y/mesa-219.webp", width: 1080, height: 780 },
+    { id: "0QS0cwbN/mesa-220.webp", width: 1080, height: 780 },
+    { id: "xT2tptGV/mesa-221.webp", width: 1080, height: 780 },
+    { id: "rwygMsYh/mesa-222.webp", width: 1080, height: 780 },
+    { id: "Yqz85Y8G/mesa-223.webp", width: 1080, height: 780 },
 ];
+
+
+
+
 
 const photos = unsplashPhotos.map((photo) => {
     const width = breakpoints[0];

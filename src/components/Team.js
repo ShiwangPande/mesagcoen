@@ -66,6 +66,17 @@ function Team() {
                     </Parallax> */}
 
 
+
+
+
+
+
+
+
+
+
+
+
                     <Container>
                         <h1 className="h1-responsive font-weight-bold my-5 d-flex align-items-center justify-content-center" ><strong style={{ textAlign: "center" }}>MESA COMMITTEE <br />2022-23</strong>
 
@@ -76,7 +87,7 @@ function Team() {
                             <div className="profile_section">
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/om-ambarte.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/K8n9ZGw1/om-ambarte-2.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Om Ambarte</h5>
                                     <p className="text-uppercase blue-text"><strong>Advisor</strong></p>
@@ -115,7 +126,7 @@ function Team() {
 
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/bhavika-didi2.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/zD4Zvft7/bhavika-didi2-3.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Bhavika Khode</h5>
                                     <p className="text-uppercase blue-text"><strong>Vice-President</strong></p>
@@ -156,7 +167,7 @@ function Team() {
 
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/shlok-bhai.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/wMCVpZk5/shlok-bhai-2.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Shlok Tajne</h5>
                                     <p className="text-uppercase blue-text"><strong> Joint-Secretary</strong></p>
@@ -179,7 +190,7 @@ function Team() {
                                 {/* <div className="profile_section"> */}
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/kaushik-bhaiya.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/yxgP2s0Y/kaushik-bhaiya-2.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Kaushik Maske</h5>
                                     <p className="text-uppercase blue-text"><strong>Treasurer</strong></p>
@@ -216,7 +227,7 @@ function Team() {
                             <div className="profile_section">
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/akash-paraskar.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/BQDWKGR0/akash-paraskar-2.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Akash Paraskar</h5>
                                     <p className="text-uppercase blue-text"><strong>Tech Lead</strong></p>
@@ -233,7 +244,7 @@ function Team() {
                                 </div>
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/shiwangPande.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/fLb5jxLd/shiwang-Pande-3.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Shiwang Pandey</h5>
                                     <p className="text-uppercase blue-text"><strong>Tech Head</strong></p>
@@ -258,7 +269,7 @@ function Team() {
 
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/ketaki234.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/pdCqF02x/ketaki234-3.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Ketaki Mahalle</h5>
                                     <p className="text-uppercase blue-text"><strong>Social Media Head</strong></p>
@@ -273,27 +284,11 @@ function Team() {
                                         <BsLinkedin />
                                     </a>
                                 </div>
-                                <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
-                                    <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/dovesh.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
-                                    </div>
-                                    <h5 className="font-weight-bold mt-4 mb-3">Dovesh Aglawe</h5>
-                                    <p className="text-uppercase blue-text"><strong>Tech Head</strong></p>
 
-                                    <a href='https://www.instagram.com/dovesh.aglawe.2004/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-fb" style={{ fontSize: "30px", color: "#eeeeee" }}>
-                                        <BsInstagram />
-                                    </a>
-                                    <a href='' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
-
-                                    </a>
-                                    <a href='https://www.linkedin.com/in/dovesh-aglawe-39210a261/' target='_blank' type="button" className="btn-floating btn-sm mx-2 mb-2 btn-tw" style={{ fontSize: "30px", color: "#eeeeee" }}>
-                                        <BsLinkedin />
-                                    </a>
-                                </div>
 
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/parth_1.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/pV5Vq430/parth-3.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Parth Tirmare</h5>
                                     <p className="text-uppercase blue-text"><strong>Tech Head</strong></p>
@@ -316,7 +311,7 @@ function Team() {
                             <div className="profile_section">
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/sanjivini-di.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/R0PCDBMY/sanjivini-di-2.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Sanjiwani Choudhary</h5>
                                     <p className="text-uppercase blue-text"><strong>Ladies Representative</strong></p>
@@ -333,7 +328,7 @@ function Team() {
                                 </div>
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/vishakha.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/sgMRghyT/vishakha-3.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Vishakha Bondre</h5>
                                     <p className="text-uppercase blue-text"><strong>Ladies Representative</strong></p>
@@ -351,7 +346,7 @@ function Team() {
 
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/senhal.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/QtHNLyCd/senhal-3.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Snehal Joshi</h5>
                                     <p className="text-uppercase blue-text"><strong>Ladies Representative</strong></p>
@@ -375,7 +370,7 @@ function Team() {
                             <div className="profile_section">
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/pooja-didi.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/nrNGKgjj/pooja-didi-2.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Pooja shahu</h5>
                                     <p className="text-uppercase blue-text"><strong>Sports Coordinator</strong></p>
@@ -392,7 +387,7 @@ function Team() {
                                 </div>
                                 <div className="col-lg-4 col-md-12 mb-lg-0 mb-3 profile" >
                                     <div className="avatar mx-auto">
-                                        <img src="https://www.linkpicture.com/q/vedant.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
+                                        <img src="https://i.postimg.cc/brnzrSQX/vedant-3.png" className=" z-depth-1-half" alt="Sample avatar" style={{ width: "200px", height: "250px", border: "1.3mm ridge rgb(238, 238, 238)", marginTop: "20px", borderRadius: "32px" }} />
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Vedant Nimgade</h5>
                                     <p className="text-uppercase blue-text"><strong>Sports Coordinator</strong></p>

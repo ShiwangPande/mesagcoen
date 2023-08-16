@@ -56,7 +56,7 @@ export default class MesaActivities extends Component {
             <Slider {...settings} variant="dark" className="d-flex align-items-center justify-content-center" >
               <div className="d-flex align-items-center justify-content-center" >
                 <Card className="activity_card" style={{ backgroundColor: "rgb(57 62 70)" }}>
-                  <Card.Img className="activity_image" variant="top" src="https://www.linkpicture.com/q/5_286.jpg" />
+                  <Card.Img className="activity_image" variant="top" src="https://i.postimg.cc/rwpG7bK3/mesa-214.webp" />
                   <Card.Body style={{ height: "200px" }} classNamed='flex align-items-center justify-content-center'>
                     <Card.Title style={{ fontSize: "18.5px" }}>SPICE</Card.Title>
                     <Card.Text style={{ fontSize: "13px" }}>
@@ -73,7 +73,7 @@ export default class MesaActivities extends Component {
               {/* https://www.linkpicture.com/q/1_921.jpg */}
               <div className="d-flex align-items-center justify-content-center">
                 <Card className="activity_card" style={{ backgroundColor: "rgb(57 62 70)" }}>
-                  <Card.Img className="activity_image" variant="top" src="https://www.linkpicture.com/q/4_271.jpg" />
+                  <Card.Img className="activity_image" variant="top" src="https://i.postimg.cc/8zJjQxrn/mesa-204.webp" />
                   <Card.Body style={{ height: "200px" }}>
                     <Card.Title style={{ fontSize: "18px" }}>TECHNICAL QUIZ</Card.Title>
                     <Card.Text style={{ fontSize: "15px" }}>
@@ -90,7 +90,7 @@ export default class MesaActivities extends Component {
               </div>
               <div className="d-flex align-items-center justify-content-center">
                 <Card className="activity_card" style={{ backgroundColor: "rgb(57 62 70)" }}>
-                  <Card.Img className="activity_image" variant="top" src="https://www.linkpicture.com/q/37_38.jpg" />
+                  <Card.Img className="activity_image" variant="top" src="https://i.postimg.cc/264rm01N/mesa-164.webp" />
                   <Card.Body style={{ height: "200px" }}>
                     <Card.Title style={{ fontSize: "18px" }}>GOVERNMENT: ITI VISIT</Card.Title>
                     <Card.Text style={{ fontSize: "15px" }}>
@@ -104,7 +104,7 @@ export default class MesaActivities extends Component {
               </div>
               <div className="d-flex align-items-center justify-content-center">
                 <Card className="activity_card" style={{ backgroundColor: "rgb(57 62 70)" }}>
-                  <Card.Img className="activity_image" variant="top" src="https://www.linkpicture.com/q/3rd-year-9_2.jpg" />
+                  <Card.Img className="activity_image" variant="top" src="https://i.postimg.cc/9F1F6Jkq/mesa-153.webp" />
                   <Card.Body style={{ height: "200px" }}>
                     <Card.Title style={{ fontSize: "17px" }}>INDUSTRIAL VISIT - THERMAL POWER PLANT</Card.Title>
                     <Card.Text style={{ fontSize: "14px" }}>
@@ -121,7 +121,7 @@ export default class MesaActivities extends Component {
               </div>
               <div className="d-flex align-items-center justify-content-center">
                 <Card className="activity_card" style={{ backgroundColor: "rgb(57 62 70)" }} >
-                  <Card.Img className="activity_image" variant="top" src="https://www.linkpicture.com/q/robotics26.jpg" />
+                  <Card.Img className="activity_image" variant="top" src="https://i.postimg.cc/W1LLfrNJ/mesa-61.webp" />
                   <Card.Body style={{ height: "200px" }}>
                     <Card.Title style={{ fontSize: "18px" }}>INDUTRIAL ROBOTICS & AUTOMATION</Card.Title>
                     <Card.Text style={{ fontSize: "15px" }}>
@@ -136,7 +136,7 @@ export default class MesaActivities extends Component {
               </div>
               <div className="d-flex align-items-center justify-content-center">
                 <Card className="activity_card" style={{ backgroundColor: "rgb(57 62 70)" }} >
-                  <Card.Img className="activity_image" variant="top" src="https://www.linkpicture.com/q/IMG-20221225-WA0013.jpg" style={{ height: "196px" }} />
+                  <Card.Img className="activity_image" variant="top" src="https://i.postimg.cc/j5gCzvrf/mesa-79.webp" style={{ height: "196px" }} />
                   <Card.Body style={{ height: "200px" }}>
                     <Card.Title style={{ fontSize: "18px" }}>Bureau of Indian Standards.</Card.Title>
                     <Card.Text style={{ fontSize: "15px" }}>
@@ -150,7 +150,7 @@ export default class MesaActivities extends Component {
               </div>
               <div className="d-flex align-items-center justify-content-center">
                 <Card className="activity_card" style={{ backgroundColor: "rgb(57 62 70)" }} >
-                  <Card.Img className="activity_image" variant="top" src="https://www.linkpicture.com/q/asdasdasdasdasdc.png" style={{ height: "196px" }} />
+                  <Card.Img className="activity_image" variant="top" src="https://i.postimg.cc/7PBT731D/asdasdasdasdasdc-1.png" style={{ height: "196px" }} />
                   <Card.Body style={{ height: "200px" }}>
                     <Card.Title style={{ fontSize: "18px" }}>CATIA Workshop</Card.Title>
                     <Card.Text style={{ fontSize: "15px" }}>

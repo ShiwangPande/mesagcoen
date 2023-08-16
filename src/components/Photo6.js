@@ -1,28 +1,29 @@
 const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 
 const Bis = (id: string, width: number, height: number) =>
-    `https://www.linkpicture.com/q/${id}`;
+    `https://i.postimg.cc/${id}`;
 const BisPhoto = [
-    { id: "7ROWEUwRudcRrC8dFfV9XHbf2qGDNHRAupTOEUCkvEU-_plaintext_638075789302445617.jpg", width: 1080, height: 780 },
-    { id: "62OgPQowfZ5GzzGsUH_gbITGPqgBpTuUfTkqBa0AAb4-_plaintext_638075789303098243.jpg", width: 1080, height: 780 },
-    { id: "GGVPkhAgCeVMWd5_XI7fZgnviVvHHQwwVCqI9GWvUyA-_plaintext_638075789304280307.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0008.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0009.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0010.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0011_1.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0012.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0013.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0014.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0015.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0016.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0017.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0018.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0019.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0020.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0021.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0022.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0023.jpg", width: 1080, height: 780 },
-    { id: "IMG-20221225-WA0024.jpg", width: 1080, height: 780 },
+
+    { id: "j5ZnMtyL/mesa-66.webp", width: 1080, height: 780 },
+    { id: "brrDMWRL/mesa-67.webp", width: 1080, height: 780 },
+    { id: "90kRjb82/mesa-68.webp", width: 1080, height: 780 },
+    { id: "xTWJxsNy/mesa-69.webp", width: 1080, height: 780 },
+    { id: "ydVShkgM/mesa-70.webp", width: 1080, height: 780 },
+    { id: "Yq4Lxc0C/mesa-71.webp", width: 1080, height: 780 },
+    { id: "RCpnfCMY/mesa-72.webp", width: 1080, height: 780 },
+    { id: "d0F7vLBh/mesa-73.webp", width: 1080, height: 780 },
+    { id: "TwYpLFBG/mesa-74.webp", width: 1080, height: 780 },
+    { id: "T1K1QmR4/mesa-75.webp", width: 1080, height: 780 },
+    { id: "431Y3sLB/mesa-76.webp", width: 1080, height: 780 },
+    { id: "7YTb2gtC/mesa-77.webp", width: 1080, height: 780 },
+    { id: "FzwR6Rzs/mesa-78.webp", width: 1080, height: 780 },
+    { id: "j5gCzvrf/mesa-79.webp", width: 1080, height: 780 },
+    { id: "kMHBGjs3/mesa-80.webp", width: 1080, height: 780 },
+    { id: "MK4Vk6NB/mesa-85.webp", width: 1080, height: 780 },
+    { id: "pdMjT02X/mesa-87.webp", width: 1080, height: 780 },
+    { id: "fTD1Swrd/mesa-185.webp", width: 1080, height: 780 },
+
+
 
 ];
 

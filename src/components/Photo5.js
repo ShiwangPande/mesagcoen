@@ -1,38 +1,19 @@
 const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 
 const robotics = (id: string, width: number, height: number) =>
-    `https://www.linkpicture.com/q/${id}`;
+    `https://i.postimg.cc/${id}`;
 const roboticsPhoto = [
-    { id: "robototics-cover.jpg", width: 1080, height: 780 },
-    { id: "robotics1.jpg", width: 1080, height: 780 },
-    { id: "robotics2.jpg", width: 1080, height: 780 },
-    { id: "robotics10.jpg", width: 1080, height: 780 },
-    { id: "robotics13.jpg", width: 1080, height: 780 },
-    { id: "robotics11.jpg", width: 1080, height: 780 },
-    { id: "robotics12.jpg", width: 1080, height: 780 },
-    { id: "robotics9.jpg", width: 1080, height: 780 },
-    { id: "robotics8.jpg", width: 1080, height: 780 },
-    { id: "robotics7.jpg", width: 1080, height: 780 },
-    { id: "robotics6.jpg", width: 1080, height: 780 },
-    { id: "robotics3.jpg", width: 1080, height: 780 },
-    { id: "robotics4.jpg", width: 1080, height: 780 },
-    { id: "robotics5.jpg", width: 1080, height: 780 },
-    { id: "robotics30.jpg", width: 1080, height: 780 },
-    { id: "robotics28.jpg", width: 1080, height: 780 },
-    { id: "robotics27.jpg", width: 1080, height: 780 },
-    { id: "robotics23.jpg", width: 1080, height: 780 },
-    { id: "robotics25.jpg", width: 1080, height: 780 },
-    { id: "robotics26.jpg", width: 1080, height: 780 },
-    { id: "robotics24.jpg", width: 1080, height: 780 },
-    { id: "robotics22.jpg", width: 1080, height: 780 },
-    { id: "robotics21.jpg", width: 1080, height: 780 },
-    { id: "robotics19.jpg", width: 1080, height: 780 },
-    { id: "robotics20.jpg", width: 1080, height: 780 },
-    { id: "robotics18.jpg", width: 1080, height: 780 },
-    { id: "robotics17.jpg", width: 1080, height: 780 },
-    { id: "robotics14.jpg", width: 1080, height: 780 },
-    { id: "robotics15.jpg", width: 1080, height: 780 },
-    { id: "robotics16.jpg", width: 1080, height: 780 },
+{ id: "8c239QSV/mesa-52.webp", width: 1080, height: 780 },
+{ id: "QtnvgKYC/mesa-53.webp", width: 1080, height: 780 },
+{ id: "7P5ZF3kB/mesa-54.webp", width: 1080, height: 780 },
+{ id: "J7SzMs7R/mesa-55.webp", width: 1080, height: 780 },
+{ id: "1zBktjpp/mesa-56.webp", width: 1080, height: 780 },
+{ id: "BbLkmZRg/mesa-57.webp", width: 1080, height: 780 },
+{ id: "SsKwzfrH/mesa-58.webp", width: 1080, height: 780 },
+{ id: "J4J4nRtZ/mesa-59.webp", width: 1080, height: 780 },
+{ id: "L6ZFTvpp/mesa-60.webp", width: 1080, height: 780 },
+{ id: "W1LLfrNJ/mesa-61.webp", width: 1080, height: 780 },
+
 
 ];
 

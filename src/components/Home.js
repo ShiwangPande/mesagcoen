@@ -74,7 +74,6 @@ function Home() {
                                     <Navtabs />
                                     <div className="mt-5 ratio ratio-16x9">
                                         <iframe
-                                            // https://youtu.be/
                                             src="https://www.youtube.com/embed/FoS-BKzdS_Y"
                                             title="YouTube video"
                                             allowFullScreen
