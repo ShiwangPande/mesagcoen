@@ -9,6 +9,7 @@ import Gallery from './Gallery'
 import Team from './Team'
 import Contact from './Contact'
 import Collaberation from './Collaberation'
+import Team2 from './Team2'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/gallery" component={Gallery} />
 
                     <Route path="/team" component={Team} />
+                    <Route path="/team2" component={Team2} />
 
                     <Route path="/contact" component={Contact} />
                     <Route path="/collaberation" component={Collaberation} />

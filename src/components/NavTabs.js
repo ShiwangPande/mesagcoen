@@ -47,7 +47,9 @@ export default function Navtabs() {
                             <tr >
                                 <marquee behavior="smooth" direction="left" >
                                     <td style={{ cursor: "pointer" }}>
-                                        <a href="" style={{ color: "blue", marginLeft: "10px" }}> <u>.</u></a>
+                                        <a href="/Team" style={{ color: "blue", marginLeft: "10px" }}> <u>
+                                            CHECK NEW COMMITTEE
+                                            </u></a>
                                     </td>
                                 </marquee>
                                 {/* </tr>
@@ -55,7 +57,7 @@ export default function Navtabs() {
                                 <marquee behavior="smooth" direction="left" >
                                     <td style={{ cursor: "pointer" }}>
                                         {/* <br /> */}
-                                        <a href="" style={{ color: "blue", marginLeft: "20px" }}><u>.</u></a>
+                                        <a href="" style={{ color: "blue", marginLeft: "20px" }}><u>Drishti comming soon</u></a>
                                     </td></marquee>
                                 {/* </tr>
                                 <tr > */}
