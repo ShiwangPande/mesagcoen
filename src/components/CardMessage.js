@@ -14,11 +14,11 @@ function CardMessage() {
 
             <Card className='card d-flex align-self-center  ' style={{ borderRadius: "20px", backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
 
-                <Card.Img className="bd-placeholder-img   w-50 h-100 " variant="top" src="https://i.postimg.cc/L6WVZvQB/hod-jpg-png.webp" style={{ borderRadius: "32px", border: '1.3mm ridge #eeeeee', marginTop: "20px" }} />
+                <Card.Img className="bd-placeholder-img   w-50 h-100 " variant="top" src="https://i.postimg.cc/MGSkczvL/hod-sirr.jpg" style={{ borderRadius: "32px", border: '1.3mm ridge #eeeeee', marginTop: "20px" }} />
                 <Card.Body>
                     <Card.Title><h3>HOD's message</h3></Card.Title>
                     <Card.Text style={{ textAlign: "none" }}>
-                        To be the center of excellence in the field of Mechanical Engineering education and research. We ensure to provide quality and valuable education to students in the field by providing state-of-art facilities for research and consultancy and to Pursue higher education and contribute in research & development with their full of energetic moves towards Core.
+                        Welcome to the Department of Mechanical Engineering at GCOE Nagpur, established in 2016. In just seven years, we have achieved excellence in academics and extracurricular activities. Committed to providing quality education, our department fosters an environment that encourages research, development, and innovation. We strive to instill teamwork, leadership, communication skills, and a passion for lifelong learning in our students. Associated with IEI and ISTE student chapters, we offer platforms for technical and managerial development through workshops and national/international competitions. The Mechanical Engineering Student’s Association (MESA) enhances organizational and leadership skills. Join our dynamic team dedicated to nation-building. Welcome to a journey of growth and success!
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush" style={{ width: "100%", borderRadius: "0px 0 32px 32px", fontWeight: "600" }}>
