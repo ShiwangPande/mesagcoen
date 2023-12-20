@@ -23,7 +23,7 @@ function CardMessage() {
                 </Card.Body>
                 <ListGroup className="list-group-flush" style={{ width: "100%", borderRadius: "0px 0 32px 32px", fontWeight: "600" }}>
                     <ListGroup.Item>Email: hod.mech@gcoen.ac.in</ListGroup.Item>
-                    <ListGroup.Item>Contact: +918237021103</ListGroup.Item>
+                    <ListGroup.Item>Contact: +919371459644</ListGroup.Item>
                 </ListGroup>
             </Card>
 
