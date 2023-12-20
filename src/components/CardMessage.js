@@ -19,7 +19,7 @@ function CardMessage() {
                     <Card.Title><h3>HOD's message</h3></Card.Title>
                     <Card.Text style={{ textAlign: "none" }}>
 
-                        Welcome to GCOE Nagpur's Department of Mechanical Engineering, established in 2016. In just 7 years, we've excelled in academics and extracurriculars, offering quality education that fosters specialization excellence. Our commitment to a research-driven atmosphere encourages innovation, teamwork, leadership, and lifelong learning. Proudly associated with IEI, ISTE, and MESA, we invite you to join our dynamic team for nation-building endeavors.
+                    Welcome to GCOE Nagpur's Department of Mechanical Engineering, established in 2016. In 7 years, we've excelled in academics and extracurriculars, offering quality education that fosters specialization excellence. Our commitment to a research-driven atmosphere encourages innovation, teamwork, leadership, and lifelong learning. Proudly associated with IEI, ISTE, and MESA, join our dynamic team for nation-building.
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush" style={{ width: "100%", borderRadius: "0px 0 32px 32px", fontWeight: "600" }}>
