@@ -48,6 +48,20 @@ function SlideShow() {
                 />
 
             </Carousel.Item>
+            <Carousel.Item >
+                {/* <Carousel.Caption style={{ color: "black" }}>
+                    <h2>Third slide label</h2>
+                    <p>
+                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    </p>
+                </Carousel.Caption> */}
+                <img
+                    className="slide_show d-block"
+                    src="https://i.postimg.cc/RFBPTCB4/sfoorti2024.webp"
+                    alt="Third slide"
+                />
+
+            </Carousel.Item>
         </Carousel>
     );
 }

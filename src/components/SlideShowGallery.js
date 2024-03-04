@@ -24,6 +24,17 @@ function SlideShow() {
             </Carousel.Item>
             <Carousel.Item >
                 <img
+                    className="slide_show d-block" style={{ backgroundSize: "contain" }}
+                    src="https://i.postimg.cc/Z5zrcRTK/drishti1.webp"
+                    alt="First slide"
+                />
+                {/* <Carousel.Caption>
+                    <h3>Industrial Visit: Thermal PowerPlant</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </Carousel.Caption> */}
+            </Carousel.Item>
+            <Carousel.Item >
+                <img
                     className="slide_show d-block "
                     src="https://i.postimg.cc/jS401jxs/industrial-Visite.png"
                     alt="Second slide"

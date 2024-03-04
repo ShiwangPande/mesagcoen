@@ -20,6 +20,11 @@ import NavBar from './Navbar';
 import photo6 from "./Photo6";
 import photo7 from "./Photo7";
 import photo8 from "./Photo8";
+import photo9 from "./Photo9";
+import photo10 from "./Photo10";
+import photo11 from "./Photo11";
+import photo12 from "./Photo12";
+import photo13 from "./Photo13";
 
 const slides = photos.map(({ src, width, height, images }) => ({
     src,
@@ -111,6 +116,56 @@ const slides8 = photo8.map(({ src, width, height, images }) => ({
         height: image.height,
     })),
 }));
+const slides9 = photo9.map(({ src, width, height, images }) => ({
+    src,
+    width,
+    height,
+    srcSet: images.map((image) => ({
+        src: image.src,
+        width: image.width,
+        height: image.height,
+    })),
+}));
+const slides10 = photo10.map(({ src, width, height, images }) => ({
+    src,
+    width,
+    height,
+    srcSet: images.map((image) => ({
+        src: image.src,
+        width: image.width,
+        height: image.height,
+    })),
+}));
+const slides11 = photo11.map(({ src, width, height, images }) => ({
+    src,
+    width,
+    height,
+    srcSet: images.map((image) => ({
+        src: image.src,
+        width: image.width,
+        height: image.height,
+    })),
+}));
+const slides12 = photo12.map(({ src, width, height, images }) => ({
+    src,
+    width,
+    height,
+    srcSet: images.map((image) => ({
+        src: image.src,
+        width: image.width,
+        height: image.height,
+    })),
+}));
+const slides13 = photo13.map(({ src, width, height, images }) => ({
+    src,
+    width,
+    height,
+    srcSet: images.map((image) => ({
+        src: image.src,
+        width: image.width,
+        height: image.height,
+    })),
+}));
 
 function Gallery() {
     const [index, setIndex] = useState(-1);
@@ -122,6 +177,11 @@ function Gallery() {
     const [index6, setIndex6] = useState(-1);
     const [index7, setIndex7] = useState(-1);
     const [index8, setIndex8] = useState(-1);
+    const [index9, setIndex9] = useState(-1);
+    const [index10, setIndex10] = useState(-1);
+    const [index11, setIndex11] = useState(-1);
+    const [index12, setIndex12] = useState(-1);
+    const [index13, setIndex13] = useState(-1);
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         setLoading(true);
@@ -290,6 +350,92 @@ function Gallery() {
                         open={index8 >= 0}
                         index={index8}
                         close={() => setIndex8(-1)}
+                        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+                    />
+                    <div className="mt-5" style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
+                        <h2 id='Thermal-PowerPlant' className="py-3 col-md-9  m-auto fw-bolder d-flex align-items-center justify-content-center" >Insights Of Semiconductor Industry</h2>
+                    </div>
+                    <Container className='p-3'>
+                        <PhotoAlbum
+                            photos={photo9}
+                            layout="rows"
+                            targetRowHeight={150}
+                            onClick={(event, photo, index9) => setIndex9(index9)}
+                        /></Container>
+                    <Lightbox
+                        slides={slides9}
+                        open={index9 >= 0}
+                        index={index9}
+                        close={() => setIndex9(-1)}
+                        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+                    />
+                    <div className="mt-5" style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
+                        <h2 id='Thermal-PowerPlant' className="py-3 col-md-9  m-auto fw-bolder d-flex align-items-center justify-content-center" >Seminar on Skill development and career opportunities in steam boiler</h2>
+                    </div>
+                    <Container className='p-3'>
+                        <PhotoAlbum
+                            photos={photo10}
+                            layout="rows"
+                            targetRowHeight={150}
+                            onClick={(event, photo, index10) => setIndex10(index10)}
+                        /></Container>
+                    <Lightbox
+                        slides={slides10}
+                        open={index10 >= 0}
+                        index={index10}
+                        close={() => setIndex10(-1)}
+                        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+                    />
+                    <div className="mt-5" style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
+                        <h2 id='Thermal-PowerPlant' className="py-3 col-md-9  m-auto fw-bolder d-flex align-items-center justify-content-center" >Innovative Manufacturing Process in Automotive Industry</h2>
+                    </div>
+                    <Container className='p-3'>
+                        <PhotoAlbum
+                            photos={photo11}
+                            layout="rows"
+                            targetRowHeight={150}
+                            onClick={(event, photo, index11) => setIndex11(index11)}
+                        /></Container>
+                    <Lightbox
+                        slides={slides11}
+                        open={index11 >= 0}
+                        index={index11}
+                        close={() => setIndex11(-1)}
+                        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+                    />
+                
+                    <div className="mt-5" style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
+                        <h2 id='Thermal-PowerPlant' className="py-3 col-md-9  m-auto fw-bolder d-flex align-items-center justify-content-center" >Tertiary Graduation Ceremony (passes year 2022)</h2>
+                    </div>
+                    <Container className='p-3'>
+                        <PhotoAlbum
+                            photos={photo12}
+                            layout="rows"
+                            targetRowHeight={150}
+                            onClick={(event, photo, index12) => setIndex12(index12)}
+                        /></Container>
+                    <Lightbox
+                        slides={slides12}
+                        open={index12 >= 0}
+                        index={index12}
+                        close={() => setIndex12(-1)}
+                        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+                    />
+                    <div className="mt-5" style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
+                        <h2 id='Thermal-PowerPlant' className="py-3 col-md-9  m-auto fw-bolder d-flex align-items-center justify-content-center" >Drishti 2k23</h2>
+                    </div>
+                    <Container className='p-3'>
+                        <PhotoAlbum
+                            photos={photo13}
+                            layout="rows"
+                            targetRowHeight={150}
+                            onClick={(event, photo, index13) => setIndex13(index13)}
+                        /></Container>
+                    <Lightbox
+                        slides={slides13}
+                        open={index13 >= 0}
+                        index={index13}
+                        close={() => setIndex13(-1)}
                         plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
                     />
 
