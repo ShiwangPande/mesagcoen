@@ -49,6 +49,35 @@ export default function Scrollbar() {
             >
                 <SwiperSlide>
                     <Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                        <Card.Img variant="top" src='https://i.postimg.cc/RFBPTCB4/sfoorti2024.webp' style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
+                        <Card.Body style={{ height: "210px" }}>
+                            <Card.Title style={{ fontSize: "18px" }}>MESA Won one more SHIELD</Card.Title>
+                            <Card.Text style={{ fontSize: "15px" }}>
+                                Mesa Clinches Fourth Trophy, Shield, at Sfoorti; Distributes Trophies in Oranz
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </SwiperSlide>
+                <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                    <Card.Img variant="top" src="https://i.postimg.cc/m2CLrq87/hardik-bhaiya-3.jpg" style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
+                    <Card.Body style={{ height: "210px" }}>
+                        <Card.Title style={{ fontSize: "18px" }}>Mr. Hardik jagtap</Card.Title>
+                        <Card.Text style={{ fontSize: "15px" }}>
+                            Mr. Hardik jagtap student of government College of engineering  nagpur studying in  mechanical 3rd year , participated in ashwamedh 2k22,  RTMNagpurUniversity basketball team secured 2nd position.
+                        </Card.Text>
+                    </Card.Body>
+                </Card></SwiperSlide>
+                <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                    <Card.Img variant="top" src='https://i.postimg.cc/K8XM2WsV/snheal-jpg.webp' style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
+                    <Card.Body style={{ height: "210px" }}>
+                        <Card.Title style={{ fontSize: "18px" }}>Ms Snheal joshi</Card.Title>
+                        <Card.Text style={{ fontSize: "15px" }}>
+                            Ms Snehal Sunil Joshi Triathlete Represented India at Asian Triathlon Championship Nepal , Asian Triathlon Cup, Malaysia Won Silver medal at Asain Duathlon open.
+                        </Card.Text>
+                    </Card.Body>
+                </Card></SwiperSlide>
+                <SwiperSlide>
+                    <Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
                         <Card.Img variant="top" src='https://i.postimg.cc/yYDmBc6J/Mr-Sahil-Jivan-Kothekar-3-png.webp' style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
                         <Card.Body style={{ height: "210px" }}>
                             <Card.Title style={{ fontSize: "18px" }}>Mr.Sahil Jivan Kothekar</Card.Title>
@@ -119,28 +148,8 @@ export default function Scrollbar() {
                         </Card.Text>
                     </Card.Body>
                 </Card></SwiperSlide>
-                <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                    <Card.Img variant="top" src='https://i.postimg.cc/K8XM2WsV/snheal-jpg.webp' style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
-                    <Card.Body style={{ height: "210px" }}>
-                        <Card.Title style={{ fontSize: "18px" }}>Ms Snheal joshi</Card.Title>
-                        <Card.Text style={{ fontSize: "15px" }}>
-                            Ms Snehal Sunil Joshi
-                            Triathlete
-                            Represented India at Asian Triathlon Championship Nepal ,
-                            Asian Triathlon Cup,  Malaysia
-                            Won Silver medal at Asain Duathlon open.
-                        </Card.Text>
-                    </Card.Body>
-                </Card></SwiperSlide>
-                <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
-                    <Card.Img variant="top" src="https://i.postimg.cc/m2CLrq87/hardik-bhaiya-3.jpg" style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
-                    <Card.Body style={{ height: "210px" }}>
-                        <Card.Title style={{ fontSize: "18px" }}>Mr. Hardik jagtap</Card.Title>
-                        <Card.Text style={{ fontSize: "15px" }}>
-                            Mr. Hardik jagtap student of government College of engineering  nagpur studying in  mechanical 3rd year , participated in ashwamedh 2k22,  RTMNagpurUniversity basketball team secured 2nd position.
-                        </Card.Text>
-                    </Card.Body>
-                </Card></SwiperSlide>
+
+
             </Swiper>
         </>
     );
