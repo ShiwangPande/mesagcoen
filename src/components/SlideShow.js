@@ -11,9 +11,14 @@ function SlideShow() {
     return (
         <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item >
-                <img
+                {/* <img
                     className="slide_show d-block"
                     src="https://i.postimg.cc/nLJBvW47/committee-Pic-jpg.webp"
+                    alt="First slide"
+                /> */}
+                <img
+                    className="slide_show d-block"
+                    src="https://i.postimg.cc/zvzVF3WM/Whats-App-Image-2024-03-05-at-23-02-34-1.webp"
                     alt="First slide"
                 />
                 {/* <Carousel.Caption style={{ color: "black" }}>
@@ -22,18 +27,34 @@ function SlideShow() {
                 </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item >
+                {/* <img
+                    className="slide_show d-block"
+                    src="https://i.postimg.cc/nLJBvW47/committee-Pic-jpg.webp"
+                    alt="First slide"
+                /> */}
+                <img
+                    className="slide_show d-block object-fit-contain"
+                    src="https://i.postimg.cc/CL6zbhKP/Whats-App-Image-2024-03-05-at-23-02-33-1.webp"
+                    alt="First slide"
+                />
+                {/* <Carousel.Caption style={{ color: "black" }}>
+                    <h2 >Committe Pic</h2>
+                    <p >At Government College Of Engineering, Nagpur</p>
+                </Carousel.Caption> */}
+            </Carousel.Item>
+            {/* <Carousel.Item >
                 <img
                     className="slide_show d-block "
 
                     src="https://i.postimg.cc/xTmXtRTP/trophy-jpg.webp"
                     alt="Second slide"
-                />
+                /> */}
 
-                {/* <Carousel.Caption style={{ color: "black" }}>
+            {/* <Carousel.Caption style={{ color: "black" }}>
                     <h2>Second slide label</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption> */}
-            </Carousel.Item>
+            {/* </Carousel.Item> */}
             <Carousel.Item >
                 {/* <Carousel.Caption style={{ color: "black" }}>
                     <h2>Third slide label</h2>

@@ -47,9 +47,10 @@ export default function Navtabs() {
                             <tr >
                                 <marquee behavior="smooth" direction="left" >
                                     <td style={{ cursor: "pointer" }}>
-                                        <a href="/Team" style={{ color: "blue", marginLeft: "10px" }}> <u>
-                                            CHECK NEW COMMITTEE
-                                            </u></a>
+                                        <a href="http://ndl.iitkgp.ac.in" style={{ color: "blue", marginLeft: "10px" }}> <u>
+
+                                            Discover IIT Kharagpur's National Digital Library with 4.6 crore books for students.
+                                        </u></a>
                                     </td>
                                 </marquee>
                                 {/* </tr>
@@ -57,7 +58,7 @@ export default function Navtabs() {
                                 <marquee behavior="smooth" direction="left" >
                                     <td style={{ cursor: "pointer" }}>
                                         {/* <br /> */}
-                                        <a href="" style={{ color: "blue", marginLeft: "20px" }}><u>Drishti comming soon</u></a>
+                                        <a href="https://forms.gle/UsDK7i3bzsSU845dA" style={{ color: "blue", marginLeft: "20px" }}><u>Register for Display Board Competition</u></a>
                                     </td></marquee>
                                 {/* </tr>
                                 <tr > */}

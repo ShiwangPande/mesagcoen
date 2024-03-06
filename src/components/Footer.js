@@ -140,7 +140,7 @@ export default function Footer() {
                                 gcoenmesa@gmail.com
                             </p>
                             <p>
-                                <MDBIcon icon="phone" className="me-3" /> Tech Head: +918459795840
+                                <MDBIcon icon="phone" className="me-3" /> Vice-President: +918459795840
                             </p>
                             <p>
                                 <MDBIcon icon="print" className="me-3" /> Joint-Secretary: +918237050035

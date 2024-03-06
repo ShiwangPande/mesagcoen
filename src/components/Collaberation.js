@@ -34,7 +34,9 @@ function Collaberation() {
                             <td>Shruti Vaibhav Wazalwar
                             </td>
                             <td>3 Years</td>
-                            <td><img src="https://i.postimg.cc/bvkM6KWf/pdf.png" alt="" style={{ width: "35px", cursor: "pointer" }} /></td>
+                            <td><img src="https://i.postimg.cc/bvkM6KWf/pdf.png" alt="" style={{ width: "35px", cursor: "pointer" }} />
+                            
+                            </td>
                         </tr>
                         <tr>
                             <td>2</td>
@@ -71,7 +73,7 @@ function Collaberation() {
                         <hr />
                         <Row className='my-5 border border-3 border-dark'>
                             <Col sm={4} className='d-flex justify-content-center'>
-                                <img src="https://i.postimg.cc/W3dTkPM0/MOU-2.png" className="mou my-3" style={{ maxHeight: "350px" }} alt="" />
+                                <img src="https://i.postimg.cc/2jGq8FNf/Whats-App-Image-2024-03-05-at-23-01-35-1.webp" className="mou my-3" style={{ maxHeight: "350px" }} alt="" />
                             </Col>
                             <Col sm={8} className=' mou_line'>
                                 <h5 className='m-3 p-4'>  Mechanical Engineering Department signed
