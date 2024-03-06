@@ -52,7 +52,7 @@ export default function Scrollbar() {
                     <Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
                         <Card.Img variant="top" src='https://i.postimg.cc/rwpG7bK3/mesa-214.webp' style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
                         <Card.Body style={{ height: "210px" }}>
-                            <Card.Title style={{ fontSize: "18px" }}>Mr.Sahil Jivan Kothekar</Card.Title>
+                            <Card.Title style={{ fontSize: "18px" }}>SPICE</Card.Title>
                             <Card.Text style={{ fontSize: "15px" }}>
                                 Student Project Innovation Competition & Exhibition competition was organized by the MESA
                                 committee of the government college of engineering Nagpur on the
