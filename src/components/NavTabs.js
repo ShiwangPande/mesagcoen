@@ -70,27 +70,27 @@ export default function Navtabs() {
                 </MDBTabsPane >
                 <MDBTabsPane show={basicActive === 'tab2'} style={{ height: "146px", scrollBehavior: "smooth", overflow: "scroll" }}><Table striped bordered hover size="lg" style={{ height: "146px", scrollBehavior: "smooth", overflow: "scroll" }}>
                     <Table responsive="sm" style={{ height: "146px", scrollBehavior: "smooth", overflow: "scroll" }}>
-                        <tbody>
+                        {/* <tbody>
                             <tr>
-                                {/* <th>#</th> */}
+                             
                                 <td><a href="https://drive.google.com/file/d/1VLKnkGbhUjnHC8INGON7kpYfkLJNuKr0/view?usp=sharing" style={{ color: "blue" }}>EDP camp</a>
                                 </td>
 
                             </tr>
 
                             <tr>
-                                {/* <td>1</td> */}
+                          
                                 <td><a href="https://drive.google.com/file/d/1M8oTSB6NIwZEd075a_L5AhIk-rgUCBxq/view?usp=share_link" style={{ color: "blue" }}>  JSW Plant 15 sept 2018 </a></td>
                             </tr>
                             <tr>
-                                {/* <td>2</td> */}
+                            
                                 <td><a href="https://drive.google.com/file/d/1l5G-jWIWIAbMv1j6iCS0ZpcxHqYpRmTH/view?usp=share_link" style={{ color: "blue" }}>  Presentation in Samantrana International paper</a></td>
 
 
 
                             </tr>
                             <tr>
-                                {/* <td>2</td> */}
+                                
 
                                 <td><a href="https://drive.google.com/file/d/1vy3wAmmewRaCh01YAT1sIlcP-iDLxj3J/view?usp=share_link" style={{ color: "blue" }}>  Lecture on Industrial Project & Internship importance </a></td>
 
@@ -99,7 +99,7 @@ export default function Navtabs() {
 
                             </tr>
                             <tr>
-                                {/* <td>2</td> */}
+                             
 
                                 <td><a href="https://drive.google.com/file/d/1FbUsawJ0fq9EjAJHyJgR4fxRGuRknGA6/view?usp=share_link" style={{ color: "blue" }}>  TCS expert talk</a></td>
 
@@ -142,6 +142,43 @@ export default function Navtabs() {
                                 <td><a href="https://drive.google.com/file/d/1ITWSRBVV2sOo5AJ001Oej49tTW_PUZBv/view?usp=sharing" style={{ color: "blue" }}>  Higher studies in Foreign Mr Bond Krishna Consultant </a></td>
                             </tr>
 
+                        </tbody> */}
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="/mesa-activities"> Guest Lecture on Interview Preparation</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/mesa-activities"> DRISHTI 2K23</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/mesa-activities">   TERTIARY GRADUATION CEREMONY (PASSES YEAR 2022) </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/mesa-activities"> INNOVATIVE MANUFACTURING PROCESS IN AUTOMOTIVE INDUSTRY   </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/mesa-activities">  SEMINAR ON SKILL DEVELOPMENT AND CAREER OPPORTUNITIES IN STEAM BOILER  </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/mesa-activities"> INSIGHTS OF SEMICONDUCTOR INDUSTRY   </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/mesa-activities">  IRON & IRON CARBIDE LECTURE  </a>
+                                </td>
+                            </tr>
                         </tbody>
                     </Table>
 
