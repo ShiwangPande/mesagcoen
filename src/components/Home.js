@@ -103,8 +103,9 @@ function Home() {
                             <Row className='m-3'>
                                 <h1 id='about_the_mesa' className="mt-5 mb-3 col-md-9  m-auto fw-bolder " style={{ textAlign: "center" }}> Recent Mesa-Activities</h1>
                                 <Scrollbar2 />
+                                <div className='mt-3'></div>
                                 <a href="/mesa-activities" target={"_blank"}>
-                                    <Button style={{ textAlign: "center" }} variant="outline-dark" size="lg">New Committee
+                                    <Button style={{ textAlign: "center" }} variant="outline-dark" size="lg">Check more Activities
                                     </Button></a>
                                 <div className='my-3'></div>
                             </Row>
