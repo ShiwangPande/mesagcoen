@@ -51,9 +51,20 @@ export default function Scrollbar() {
                     <Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
                         <Card.Img variant="top" src='https://i.postimg.cc/RFBPTCB4/sfoorti2024.webp' style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
                         <Card.Body style={{ height: "210px" }}>
-                            <Card.Title style={{ fontSize: "18px" }}>MESA Won one more SHIELD</Card.Title>
+                            <Card.Title style={{ fontSize: "18px" }}>Sfoorti 2024</Card.Title>
                             <Card.Text style={{ fontSize: "15px" }}>
                                 Mesa Clinches Fourth Trophy, Shield, at Sfoorti; Distributes Trophies in Oranz
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                        <Card.Img variant="top" src='https://i.postimg.cc/Z5zrcRTK/drishti1.webp' style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
+                        <Card.Body style={{ height: "210px" }}>
+                            <Card.Title style={{ fontSize: "18px" }}>Drishti 2k23</Card.Title>
+                            <Card.Text style={{ fontSize: "15px" }}>
+                                MESA Drishti Techfest: A Roaring Success with Over 500 Participants and Special Guests!
                             </Card.Text>
                         </Card.Body>
                     </Card>
