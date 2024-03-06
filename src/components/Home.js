@@ -14,7 +14,9 @@ import Loader from "./Loader";
 import Popup from './Popup';
 import { GoogleButton } from 'react-google-button';
 import { signInWithGoogle, signOutwithGoogle } from '../context/AuthContext';
-import Swiper from "./Scrollbar"
+import Swiper from "./Scrollbar";
+import Scrollbar2 from "./Scrollbar2.js";
+import Button from 'react-bootstrap/Button';
 
 function Home() {
     const [loading, setLoading] = useState(false);
@@ -97,6 +99,14 @@ function Home() {
                                     </p>
                                     <input class="expand-btn" type="checkbox" ></input>
                                 </Col>
+                            </Row>
+                            <Row className='m-3'>
+                                <h1 id='about_the_mesa' className="mt-5 mb-3 col-md-9  m-auto fw-bolder " style={{ textAlign: "center" }}> Recent Mesa-Activities</h1>
+                                <Scrollbar2 />
+                                <a href="/mesa-activities" target={"_blank"}>
+                                    <Button style={{ textAlign: "center" }} variant="outline-dark" size="lg">New Committee
+                                    </Button></a>
+                                <div className='my-3'></div>
                             </Row>
                             <Row className='m-3'>
                                 <h1 id='about_the_mesa' className="mt-5 mb-3 col-md-9  m-auto fw-bolder " style={{ textAlign: "center" }}>Achievements</h1>
