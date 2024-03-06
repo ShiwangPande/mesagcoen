@@ -223,6 +223,18 @@ export default function Scrollbar() {
                         <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
                         </Button></a>
                 </Card></SwiperSlide>
+                <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                    <Card.Img variant="top" src="https://i.postimg.cc/jdQCM9Lr/whatsapp-image-2024-03-07-at-005547-af03b028-65e8c3860c921.webp" style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
+                    <Card.Body style={{ height: "210px" }}>
+                        <Card.Title style={{ fontSize: "18px" }}>Guest Lecture on Interview Preparation</Card.Title>
+                        <Card.Text style={{ fontSize: "15px" }}>
+                            The lecture received positive feedback from all the 60+ students in attendance. Mr. Gunani's engaging presentation style and practical tips resonated well with the audience, leaving them better prepared for their future interviews.
+                        </Card.Text>
+                    </Card.Body>
+                    <a href="https://drive.google.com/file/d/1aCqHA_9Wp_NfSvYUG1RVzA3aL0bZ9gMj/view?usp=drive_link" target={"_blank"}>
+                        <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
+                        </Button></a>
+                </Card></SwiperSlide>
 
             </Swiper>
         </>

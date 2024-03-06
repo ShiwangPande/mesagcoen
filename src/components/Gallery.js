@@ -26,6 +26,7 @@ import photo11 from "./Photo11";
 import photo12 from "./Photo12";
 import photo13 from "./Photo13";
 import photo14 from "./Photo14";
+import photo15 from "./Photo15";
 
 const slides = photos.map(({ src, width, height, images }) => ({
     src,
@@ -177,6 +178,16 @@ const slides14 = photo14.map(({ src, width, height, images }) => ({
         height: image.height,
     })),
 }));
+const slides15 = photo15.map(({ src, width, height, images }) => ({
+    src,
+    width,
+    height,
+    srcSet: images.map((image) => ({
+        src: image.src,
+        width: image.width,
+        height: image.height,
+    })),
+}));
 
 function Gallery() {
     const [index, setIndex] = useState(-1);
@@ -194,6 +205,7 @@ function Gallery() {
     const [index12, setIndex12] = useState(-1);
     const [index13, setIndex13] = useState(-1);
     const [index14, setIndex14] = useState(-1);
+    const [index15, setIndex15] = useState(-1);
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         setLoading(true);
@@ -465,6 +477,23 @@ function Gallery() {
                         open={index14 >= 0}
                         index={index14}
                         close={() => setIndex14(-1)}
+                        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+                    />
+                    <div className="mt-5" style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
+                        <h2 id='Thermal-PowerPlant' className="py-3 col-md-9  m-auto fw-bolder d-flex align-items-center justify-content-center" >Guest Lecture on Interview Preperation</h2>
+                    </div>
+                    <Container className='p-3'>
+                        <PhotoAlbum
+                            photos={photo15}
+                            layout="rows"
+                            targetRowHeight={150}
+                            onClick={(event, photo, index15) => setIndex15(index15)}
+                        /></Container>
+                    <Lightbox
+                        slides={slides15}
+                        open={index15 >= 0}
+                        index={index15}
+                        close={() => setIndex15(-1)}
                         plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
                     />
 
