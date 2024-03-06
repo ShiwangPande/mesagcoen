@@ -58,7 +58,7 @@ export default function Navtabs() {
                                 <marquee behavior="smooth" direction="left" >
                                     <td style={{ cursor: "pointer" }}>
                                         {/* <br /> */}
-                                        <a href="https://forms.gle/UsDK7i3bzsSU845dA" style={{ color: "blue", marginLeft: "20px" }}><u>Register for Display Board Competition</u></a>
+                                        <a href="https://forms.gle/UsDK7i3bzsSU845dA" style={{ color: "blue", marginLeft: "20px" }}><u> Register for Display Board Competition</u></a>
                                     </td></marquee>
                                 {/* </tr>
                                 <tr > */}
