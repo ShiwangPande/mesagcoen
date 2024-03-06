@@ -151,7 +151,79 @@ export default function Scrollbar() {
                         <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
                         </Button></a>
                 </Card></SwiperSlide>
-               
+                <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                    <Card.Img variant="top" src="https://i.postimg.cc/k4mKGTvv/iron2.jpg" style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
+                    <Card.Body style={{ height: "210px" }}>
+                        <Card.Title style={{ fontSize: "18px" }}>IRON & IRON CARBIDE LECTURE</Card.Title>
+                        <Card.Text style={{ fontSize: "15px" }}>
+                            During his presentation, Mr. Borekar emphasized the ubiquitous nature of semiconductors, highlighting their presence in almost every aspect of modern life, from smartphones and computers to medical devices and automobiles
+                        </Card.Text>
+                    </Card.Body>
+                    <a href="https://drive.google.com/file/d/1wff-vHrqNSfRAI06X7WUGK93RTKVAuGd/view?usp=drive_link" target={"_blank"}>
+                        <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
+                        </Button></a>
+                </Card></SwiperSlide>
+                <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                    <Card.Img variant="top" src="https://i.postimg.cc/T2082zpt/semiconductor13.webp" style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
+                    <Card.Body style={{ height: "210px" }}>
+                        <Card.Title style={{ fontSize: "18px" }}>INSIGHTS OF SEMICONDUCTOR INDUSTRY</Card.Title>
+                        <Card.Text style={{ fontSize: "15px" }}>
+                            During his presentation, Mr. Borekar emphasized the ubiquitous nature of semiconductors, highlighting their presence in almost every aspect of modern life, from smartphones and computers to medical devices and automobiles
+                        </Card.Text>
+                    </Card.Body>
+                    <a href="https://drive.google.com/file/d/1wff-vHrqNSfRAI06X7WUGK93RTKVAuGd/view?usp=drive_link" target={"_blank"}>
+                        <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
+                        </Button></a>
+                </Card></SwiperSlide>
+                <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                    <Card.Img variant="top" src="https://i.postimg.cc/gk9YQKVH/steamboiler13.webp" style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
+                    <Card.Body style={{ height: "210px" }}>
+                        <Card.Title style={{ fontSize: "18px" }}>SEMINAR ON SKILL DEVELOPMENT AND CAREER OPPORTUNITIES IN STEAM BOILER</Card.Title>
+                        <Card.Text style={{ fontSize: "15px" }}>
+                            The participants left with not only a deepened understanding of steam boilers but also a heightened motivation to pursue careers in this industry.
+                        </Card.Text>
+                    </Card.Body>
+                    <a href="https://drive.google.com/file/d/1hYyBqqb2KCF71mGoIIkU6cPKRPBGc3kb/view?usp=drive_link" target={"_blank"}>
+                        <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
+                        </Button></a>
+                </Card></SwiperSlide>
+                <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                    <Card.Img variant="top" src="https://i.postimg.cc/7h0BQz7m/innovative3.webp" style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
+                    <Card.Body style={{ height: "210px" }}>
+                        <Card.Title style={{ fontSize: "18px" }}>INNOVATIVE MANUFACTURING PROCESS IN AUTOMOTIVE INDUSTRY</Card.Title>
+                        <Card.Text style={{ fontSize: "15px" }}>
+                            Around 100 students of mechanical department were the part of this workshop. All the faculty members and students found this lecture very educative and informative.
+                        </Card.Text>
+                    </Card.Body>
+                    <a href="https://drive.google.com/file/d/1YuYrZyDwbzTvqWZXSnk_OLkiN3nTdcjN/view?usp=drive_link" target={"_blank"}>
+                        <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
+                        </Button></a>
+                </Card></SwiperSlide>
+                <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                    <Card.Img variant="top" src="https://i.postimg.cc/GpFWgHwL/degree55.webp" style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
+                    <Card.Body style={{ height: "210px" }}>
+                        <Card.Title style={{ fontSize: "18px" }}>TERTIARY GRADUATION CEREMONY (PASSES YEAR 2022)</Card.Title>
+                        <Card.Text style={{ fontSize: "15px" }}>
+                            The participants left with not only a deepened understanding of steam boilers but also a heightened motivation to pursue careers in this industry.
+                        </Card.Text>
+                    </Card.Body>
+                    <a href="https://drive.google.com/file/d/1YuYrZyDwbzTvqWZXSnk_OLkiN3nTdcjN/view?usp=drive_link" target={"_blank"}>
+                        <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
+                        </Button></a>
+                </Card></SwiperSlide>
+                <SwiperSlide><Card style={{ minHeight: "440px", width: '550px', backgroundColor: 'rgb(57 62 70)', color: "#eeeeee", borderRadius: "20px", border: '1.3mm ridge rgb(34 40 49)' }} >
+                    <Card.Img variant="top" src="https://i.postimg.cc/Z5zrcRTK/drishti1.webp" style={{ height: "360px", borderRadius: "20px 20px 0 0" }} />
+                    <Card.Body style={{ height: "210px" }}>
+                        <Card.Title style={{ fontSize: "18px" }}>DRISHTI 2K23</Card.Title>
+                        <Card.Text style={{ fontSize: "15px" }}>
+                            Rooted in our collective spirit, Drishti symbolizes the drive for excellence achieved through teamwork. With the unity of all participants, this tech fest is coming back stronger than ever.
+                        </Card.Text>
+                    </Card.Body>
+                    <a href="https://drive.google.com/file/d/1myIrV5tsIhwyCkd1UT9-PauTm04qmw9t/view?usp=drive_link" target={"_blank"}>
+                        <Button style={{ textAlign: "center" }} variant="outline-light" size="m-lg">View Report
+                        </Button></a>
+                </Card></SwiperSlide>
+
             </Swiper>
         </>
     );

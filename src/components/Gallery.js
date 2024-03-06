@@ -25,6 +25,7 @@ import photo10 from "./Photo10";
 import photo11 from "./Photo11";
 import photo12 from "./Photo12";
 import photo13 from "./Photo13";
+import photo14 from "./Photo14";
 
 const slides = photos.map(({ src, width, height, images }) => ({
     src,
@@ -166,6 +167,16 @@ const slides13 = photo13.map(({ src, width, height, images }) => ({
         height: image.height,
     })),
 }));
+const slides14 = photo14.map(({ src, width, height, images }) => ({
+    src,
+    width,
+    height,
+    srcSet: images.map((image) => ({
+        src: image.src,
+        width: image.width,
+        height: image.height,
+    })),
+}));
 
 function Gallery() {
     const [index, setIndex] = useState(-1);
@@ -182,6 +193,7 @@ function Gallery() {
     const [index11, setIndex11] = useState(-1);
     const [index12, setIndex12] = useState(-1);
     const [index13, setIndex13] = useState(-1);
+    const [index14, setIndex14] = useState(-1);
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         setLoading(true);
@@ -403,7 +415,7 @@ function Gallery() {
                         close={() => setIndex11(-1)}
                         plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
                     />
-                
+
                     <div className="mt-5" style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
                         <h2 id='Thermal-PowerPlant' className="py-3 col-md-9  m-auto fw-bolder d-flex align-items-center justify-content-center" >Tertiary Graduation Ceremony (passes year 2022)</h2>
                     </div>
@@ -436,6 +448,23 @@ function Gallery() {
                         open={index13 >= 0}
                         index={index13}
                         close={() => setIndex13(-1)}
+                        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+                    />
+                    <div className="mt-5" style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}>
+                        <h2 id='Thermal-PowerPlant' className="py-3 col-md-9  m-auto fw-bolder d-flex align-items-center justify-content-center" >faculty and students training at V. R. Jamdar excellence centre, V. N. I. T, Nagpur</h2>
+                    </div>
+                    <Container className='p-3'>
+                        <PhotoAlbum
+                            photos={photo14}
+                            layout="rows"
+                            targetRowHeight={150}
+                            onClick={(event, photo, index14) => setIndex14(index14)}
+                        /></Container>
+                    <Lightbox
+                        slides={slides14}
+                        open={index14 >= 0}
+                        index={index14}
+                        close={() => setIndex14(-1)}
                         plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
                     />
 

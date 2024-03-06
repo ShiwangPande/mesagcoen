@@ -4,7 +4,7 @@ const Bis = (id: string, width: number, height: number) =>
     `https://i.postimg.cc/${id}.jpg`;
 const IRONPhoto = [
 
-
+    
     { id: "hPP8V3WC/iron1.jpg",  width: 1080, height: 780},
     { id: "k4mKGTvv/iron2.jpg",  width: 1080, height: 780},
     { id: "YSgQt5YS/iron2sad.jpg",  width: 1080, height: 780},

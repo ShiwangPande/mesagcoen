@@ -3,7 +3,7 @@ const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 const Innovative = (id: string, width: number, height: number) =>
     `https://i.postimg.cc/${id}`;
 const InnovativePhoto = [
-
+    
 
     { id: "2SmtM00v/innovative1.webp", width: 780, height: 1080 },
     { id: "6p9HYyQf/innovative10.webp", width: 1080, height: 780 },

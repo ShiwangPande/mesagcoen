@@ -3,8 +3,7 @@ const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 const Steam = (id: string, width: number, height: number) =>
     `https://i.postimg.cc/${id}`;
 const SteamPhoto = [
-
-
+    
     { id: "R0G507Jy/steamboiler1.webp", width: 1080, height: 780 },
     { id: "0Ntk4Rnz/steamboiler10.webp", width: 1080, height: 780 },
     { id: "tTYqQSv2/steamboiler11.webp", width: 780, height: 1080 },
