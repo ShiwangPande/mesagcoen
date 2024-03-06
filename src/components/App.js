@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 
 import Home from './Home';
-import MesaActivities from './MesaActivities.js';
+import MesaActivities from './MesaActivities2.js';
 import Gallery from './Gallery'
 import Team from './Team'
 import Contact from './Contact'
