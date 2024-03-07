@@ -1026,6 +1026,9 @@ h2 {
   .footer__height {
     height: 28vh;
   }
+  .swiper-pagination {
+    display: none;
+  }
 }
 /* for tablet use */
 
@@ -1197,6 +1200,9 @@ h2 {
   }
   .footer__height {
     height: 28vh;
+  }
+  .swiper-pagination {
+    display: none;
   }
 }
 @media (min-width: 500px) and (max-width: 680px) {
@@ -1390,5 +1396,8 @@ h2 {
   .slide_show {
     height: 70vh;
     width: 100vw;
+  }
+  .swiper-pagination {
+    display: none;
   }
 }
