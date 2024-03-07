@@ -26,6 +26,66 @@ function SlideShow() {
                     <p >At Government College Of Engineering, Nagpur</p>
                 </Carousel.Caption> */}
             </Carousel.Item>
+
+            {/* <Carousel.Item >
+                <img
+                    className="slide_show d-block "
+
+                    src="https://i.postimg.cc/xTmXtRTP/trophy-jpg.webp"
+                    alt="Second slide"
+                /> */}
+
+            {/* <Carousel.Caption style={{ color: "black" }}>
+                    <h2>Second slide label</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </Carousel.Caption> */}
+            {/* </Carousel.Item> */}
+            <Carousel.Item >
+                <img
+                    className="slide_show d-block"
+                    src="https://i.postimg.cc/50Y0KQMc/fornt1.webp"
+                    alt="Third slide"
+                />
+
+                {/* <Carousel.Caption>
+                    <h3>SPICE</h3>
+                    <p>
+                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    </p>
+                </Carousel.Caption> */}
+            </Carousel.Item>
+
+            <Carousel.Item >
+                {/* <Carousel.Caption style={{ color: "black" }}>
+                    <h2>Third slide label</h2>
+                    <p>
+                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    </p>
+                </Carousel.Caption> */}
+                <img
+                    className="slide_show d-block"
+                    src="https://i.postimg.cc/RFBPTCB4/sfoorti2024.webp"
+                    alt="Third slide"
+                />
+
+            </Carousel.Item>
+
+
+
+            <Carousel.Item >
+                <img
+                    className="slide_show d-block"
+                    src="https://i.postimg.cc/PfDJmD4Y/front5.webp"
+                    alt="Third slide"
+                />
+
+                {/* <Carousel.Caption>
+                    <h3>SPICE</h3>
+                    <p>
+                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    </p>
+                </Carousel.Caption> */}
+            </Carousel.Item>
             <Carousel.Item >
                 {/* <img
                     className="slide_show d-block"
@@ -42,32 +102,19 @@ function SlideShow() {
                     <p >At Government College Of Engineering, Nagpur</p>
                 </Carousel.Caption> */}
             </Carousel.Item>
-            {/* <Carousel.Item >
-                <img
-                    className="slide_show d-block "
-
-                    src="https://i.postimg.cc/xTmXtRTP/trophy-jpg.webp"
-                    alt="Second slide"
-                /> */}
-
-            {/* <Carousel.Caption style={{ color: "black" }}>
-                    <h2>Second slide label</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption> */}
-            {/* </Carousel.Item> */}
             <Carousel.Item >
-                {/* <Carousel.Caption style={{ color: "black" }}>
-                    <h2>Third slide label</h2>
+                <img
+                    className="slide_show d-block"
+                    src=" https://i.postimg.cc/kXF5HdL5/front2.webp"
+                    alt="Third slide"
+                />
+
+                {/* <Carousel.Caption>
+                    <h3>SPICE</h3>
                     <p>
                         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                     </p>
                 </Carousel.Caption> */}
-                <img
-                    className="slide_show d-block"
-                    src="https://i.postimg.cc/zX4nfv3x/committe-picture234-jpg.webp"
-                    alt="Third slide"
-                />
-
             </Carousel.Item>
             <Carousel.Item >
                 {/* <Carousel.Caption style={{ color: "black" }}>
@@ -78,7 +125,7 @@ function SlideShow() {
                 </Carousel.Caption> */}
                 <img
                     className="slide_show d-block"
-                    src="https://i.postimg.cc/RFBPTCB4/sfoorti2024.webp"
+                    src="https://i.postimg.cc/zX4nfv3x/committe-picture234-jpg.webp"
                     alt="Third slide"
                 />
 

@@ -59,6 +59,7 @@ function SlideShow() {
                     </p>
                 </Carousel.Caption> */}
             </Carousel.Item>
+          
         </Carousel>
     );
 }
